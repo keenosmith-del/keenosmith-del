@@ -1,3 +1,2 @@
-<div align="center">
-  <img src="./assets/hero/memoji.gif" width="100%" alt="Keeno Smith">
-</div>
+<video src="./assets/hero/memoji-profile.mp4" autoplay loop muted playsinline width="100%">
+</video>
