@@ -1,7 +1,3 @@
 <div align="center">
-
-# KEENO SMITH
-
-**Full-Stack Software Engineer · Web Developer · AI Application Development**
-
+  <img src="./assets/hero/memoji.gif" width="100%" alt="Keeno Smith">
 </div>
