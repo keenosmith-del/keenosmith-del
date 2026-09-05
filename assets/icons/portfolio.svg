@@ -1,0 +1,25 @@
+<svg width="180" height="48" viewBox="0 0 180 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="0" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171717"/>
+      <stop offset="1" stop-color="#0A0A0A"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="179" height="47" rx="24" fill="url(#surface)" stroke="#2A2A2A"/>
+
+<circle cx="24" cy="24" r="6"
+       stroke="#F5F5F5"
+       stroke-width="1.5"/>
+
+<path d="M24 18V30M18 24H30"
+     stroke="#F5F5F5"
+     stroke-width="1.2"
+     opacity="0.8"/>
+
+<text x="42" y="30"
+     fill="#F5F5F5"
+     font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif"
+     font-size="15"
+     font-weight="500">
+Portfolio </text> </svg>
