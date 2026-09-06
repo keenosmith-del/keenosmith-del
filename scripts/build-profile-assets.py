@@ -365,13 +365,13 @@ PROJECT_W = 554
 PROJECT_H = 520
 
 container_width = 1200
-container_height = 1120
+container_height = 1240
 
 card_positions = [
     (44, 150),
     (602, 150),
-    (44, 605),
-    (602, 605),
+    (44, 700),
+    (602, 700),
 ]
 
 project_items = []
@@ -380,11 +380,27 @@ for project, (x, y) in zip(projects, card_positions):
 
     image = png_image(project["image"])
 
+    # Internal project layout
+    image_x = x + 16
+    image_y = y + 16
+    image_w = PROJECT_W - 32
+    image_h = 255
+
+    title_y = y + 305
+
+    description_start_y = y + 340
+    description_line_height = 23
+
+    stack_y = y + 425
+
+    arrow_cx = x + PROJECT_W - 34
+    arrow_cy = y + 425
+
     description_svg = "".join(
         f"""
         <text
             x="{x + 16}"
-            y="{y + 292 + (i * 23)}"
+            y="{description_start_y + (i * description_line_height)}"
             fill="#8E8E93"
             font-family="{FONT}"
             font-size="13"
@@ -399,6 +415,8 @@ for project, (x, y) in zip(projects, card_positions):
         f"""
         <a href="{project["repo"]}">
 
+            <!-- Project tile -->
+
             <rect
                 x="{x}"
                 y="{y}"
@@ -408,13 +426,15 @@ for project, (x, y) in zip(projects, card_positions):
                 fill="#0D0D0D"
             />
 
+            <!-- Project image -->
+
             <defs>
                 <clipPath id="projectClip{x}{y}">
                     <rect
-                        x="{x + 16}"
-                        y="{y + 16}"
-                        width="{PROJECT_W - 32}"
-                        height="235"
+                        x="{image_x}"
+                        y="{image_y}"
+                        width="{image_w}"
+                        height="{image_h}"
                         rx="20"
                     />
                 </clipPath>
@@ -422,17 +442,19 @@ for project, (x, y) in zip(projects, card_positions):
 
             <image
                 href="{image}"
-                x="{x + 16}"
-                y="{y + 16}"
-                width="{PROJECT_W - 32}"
-                height="235"
+                x="{image_x}"
+                y="{image_y}"
+                width="{image_w}"
+                height="{image_h}"
                 preserveAspectRatio="xMidYMid slice"
                 clip-path="url(#projectClip{x}{y})"
             />
 
+            <!-- Project title -->
+
             <text
                 x="{x + 16}"
-                y="{y + 275}"
+                y="{title_y}"
                 fill="#F5F5F7"
                 font-family="{FONT}"
                 font-size="18"
@@ -441,11 +463,15 @@ for project, (x, y) in zip(projects, card_positions):
                 {html.escape(project["title"])}
             </text>
 
+            <!-- Description -->
+
             {description_svg}
+
+            <!-- Technology stack -->
 
             <text
                 x="{x + 16}"
-                y="{y + 375}"
+                y="{stack_y}"
                 fill="#5F5F63"
                 font-family="{FONT}"
                 font-size="11"
@@ -453,19 +479,23 @@ for project, (x, y) in zip(projects, card_positions):
                 {html.escape(project["stack"])}
             </text>
 
+            <!-- Arrow -->
+
             <circle
-                cx="{x + PROJECT_W - 34}"
-                cy="{y + 375}"
-                r="18"
+                cx="{arrow_cx}"
+                cy="{arrow_cy}"
+                r="20"
                 fill="#101010"
             />
 
             <path
-                d="M{x + PROJECT_W - 40} {y + 375}
-                   H{x + PROJECT_W - 29}
-                   M{x + PROJECT_W - 35} {y + 371}
-                   L{x + PROJECT_W - 29} {y + 375}
-                   L{x + PROJECT_W - 35} {y + 379}"
+                d="
+                    M{arrow_cx - 7} {arrow_cy}
+                    H{arrow_cx + 7}
+                    M{arrow_cx + 1} {arrow_cy - 6}
+                    L{arrow_cx + 7} {arrow_cy}
+                    L{arrow_cx + 1} {arrow_cy + 6}
+                "
                 fill="none"
                 stroke="#A1A1A6"
                 stroke-width="1.5"
@@ -478,12 +508,18 @@ for project, (x, y) in zip(projects, card_positions):
     )
 
 
+# =========================================================
+# PROJECTS SVG
+# =========================================================
+
 projects_svg = f"""
 <svg
     xmlns="http://www.w3.org/2000/svg"
     width="{container_width}"
     height="{container_height}"
     viewBox="0 0 {container_width} {container_height}">
+
+    <!-- Outer matte container -->
 
     <rect
         width="{container_width}"
@@ -492,7 +528,7 @@ projects_svg = f"""
         fill="#080808"
     />
 
-    <!-- Projects heading -->
+    <!-- Heading -->
 
     <text
         x="44"
@@ -525,7 +561,7 @@ projects_svg = f"""
 
         <rect
             x="515"
-            y="1065"
+            y="1170"
             width="170"
             height="44"
             rx="22"
@@ -534,7 +570,7 @@ projects_svg = f"""
 
         <text
             x="600"
-            y="1097"
+            y="1197"
             text-anchor="middle"
             fill="#D2D2D7"
             font-family="{FONT}"
