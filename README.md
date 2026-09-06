@@ -89,11 +89,12 @@
 <div align="center">
 
 <a href="https://keenosmith.vercel.app">
-  <img
-    src="./assets/icons/portfolio.svg"
-    width="150"
-    alt="View portfolio"
-  />
+<img
+  src="./assets/generated/portfolio.svg"
+  width="170"
+  height="44"
+  alt="View portfolio"
+/>
 </a>
 
 </div>

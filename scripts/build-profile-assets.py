@@ -472,3 +472,42 @@ for project in projects:
     """
 
     write_svg(project["filename"], card)
+
+# =========================================================
+# PORTFOLIO BUTTON
+# =========================================================
+
+portfolio = f"""
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="170"
+    height="44"
+    viewBox="0 0 170 44">
+
+    <a href="https://keenosmith.vercel.app">
+
+        <rect
+            width="170"
+            height="44"
+            rx="22"
+            fill="#101010"
+        />
+
+        <text
+            x="85"
+            y="27"
+            text-anchor="middle"
+            fill="#D2D2D7"
+            font-family="{FONT}"
+            font-size="13"
+            font-weight="500"
+            letter-spacing="-0.1">
+            View portfolio
+        </text>
+
+    </a>
+
+</svg>
+"""
+
+write_svg("portfolio.svg", portfolio)

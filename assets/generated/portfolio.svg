@@ -11,7 +11,7 @@
             width="170"
             height="44"
             rx="22"
-            fill="#0D0D0D"
+            fill="#101010"
         />
 
         <text
@@ -21,7 +21,8 @@
             fill="#D2D2D7"
             font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
             font-size="13"
-            font-weight="500">
+            font-weight="500"
+            letter-spacing="-0.1">
             View portfolio
         </text>
 
