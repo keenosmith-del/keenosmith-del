@@ -1,38 +1,10 @@
 <div align="center">
 
 <img
-  src="./assets/hero/memoji.gif"
+  src="./assets/generated/projects-container.svg"
   width="100%"
-  alt="Keeno Smith"
+  alt="Projects"
 />
-
-<br>
-
-<img
-  src="./assets/generated/intro.svg"
-  width="100%"
-  alt="Keeno Smith — Full-Stack Software Engineer"
-/>
-
-<br>
-
-<img
-  src="./assets/generated/about.svg"
-  width="100%"
-  alt="About Keeno Smith"
-/>
-
-<br>
-
-<img
-  src="./assets/generated/technologies.svg"
-  width="100%"
-  alt="Technologies"
-/>
-
-<br>
-
-<h2>Projects</h2>
 
 <table width="100%">
 <tr>
@@ -86,12 +58,12 @@
 
 <br>
 
-<div align="center">
-
 <a href="https://keenosmith.vercel.app">
-View portfolio →
+<img
+  src="./assets/generated/portfolio.svg"
+  height="44"
+  alt="View portfolio"
+/>
 </a>
-
-</div>
 
 </div>
