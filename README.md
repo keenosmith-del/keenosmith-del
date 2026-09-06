@@ -11,7 +11,7 @@
 <img
   src="./assets/generated/intro.svg"
   width="100%"
-  alt="Keeno Smith — Full-Stack Software Engineer"
+  alt="Keeno Smith - Full-Stack Software Engineer"
 />
 
 <br>
