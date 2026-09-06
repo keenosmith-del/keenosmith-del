@@ -154,17 +154,16 @@ write_svg("intro.svg", intro)
 # =========================================================
 
 about_lines = [
-    "I’m a full-stack software engineer and web developer with a focus on building web applications, AI-powered software,",
-    "and full-stack systems. I work across the stack, from designing interfaces and developing frontend experiences to building",
-    "APIs, databases, authentication, and deployment workflows. I’m particularly interested in the intersection of software",
-    "engineering and AI, and in using modern tools and technologies to turn ideas into working products.",
+    "I’m a full-stack software engineer and web developer with a focus on building web applications, AI-powered software, and full-stack systems. I",
+    "work across the stack, from designing interfaces and developing frontend experiences to building APIs, databases, authentication, and deployment",
+    "workflows. I’m particularly interested in the intersection of software engineering and AI, and in using modern tools and technologies to turn ideas into working products.",
 ]
 
 about_text = "\n".join(
     f"""
     <text
         x="45"
-        y="{68 + i * 27}"
+        y="{72 + i * 27}"
         fill="#8E8E93"
         font-family="{FONT}"
         font-size="14"
@@ -262,13 +261,6 @@ for index, (name, icon_file) in enumerate(technologies):
             />
 
             <!-- white icon backing -->
-            <circle
-                cx="{x + 32}"
-                cy="{y + 34}"
-                r="15"
-                fill="#F5F5F7"
-            />
-
             <image
                 href="{icon}"
                 x="{x + 20}"

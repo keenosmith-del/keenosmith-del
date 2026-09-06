@@ -15,45 +15,34 @@
     
     <text
         x="45"
-        y="68"
+        y="72"
         fill="#8E8E93"
         font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
         font-size="14"
         font-weight="400">
-        I’m a full-stack software engineer and web developer with a focus on building web applications, AI-powered software,
+        I’m a full-stack software engineer and web developer with a focus on building web applications, AI-powered software, and full-stack systems. I
     </text>
     
 
     <text
         x="45"
-        y="95"
+        y="99"
         fill="#8E8E93"
         font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
         font-size="14"
         font-weight="400">
-        and full-stack systems. I work across the stack, from designing interfaces and developing frontend experiences to building
+        work across the stack, from designing interfaces and developing frontend experiences to building APIs, databases, authentication, and deployment
     </text>
     
 
     <text
         x="45"
-        y="122"
+        y="126"
         fill="#8E8E93"
         font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
         font-size="14"
         font-weight="400">
-        APIs, databases, authentication, and deployment workflows. I’m particularly interested in the intersection of software
-    </text>
-    
-
-    <text
-        x="45"
-        y="149"
-        fill="#8E8E93"
-        font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
-        font-size="14"
-        font-weight="400">
-        engineering and AI, and in using modern tools and technologies to turn ideas into working products.
+        workflows. I’m particularly interested in the intersection of software engineering and AI, and in using modern tools and technologies to turn ideas into working products.
     </text>
     
 
