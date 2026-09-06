@@ -362,7 +362,7 @@ projects = [
 # =========================================================
 
 PROJECT_W = 554
-PROJECT_H = 440
+PROJECT_H = 475
 
 container_width = 1200
 container_height = 1120
@@ -525,7 +525,7 @@ projects_svg = f"""
 
         <rect
             x="515"
-            y="1000"
+            y="1065"
             width="170"
             height="44"
             rx="22"
@@ -534,7 +534,7 @@ projects_svg = f"""
 
         <text
             x="600"
-            y="1087"
+            y="1097"
             text-anchor="middle"
             fill="#D2D2D7"
             font-family="{FONT}"
