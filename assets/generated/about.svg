@@ -2,69 +2,58 @@
 <svg
     xmlns="http://www.w3.org/2000/svg"
     width="1200"
-    height="190"
-    viewBox="0 0 1200 190">
+    height="180"
+    viewBox="0 0 1200 180">
 
     <rect
         width="1200"
-        height="190"
+        height="180"
         rx="34"
         fill="#080808"
     />
 
     
     <text
-        x="55"
-        y="66"
+        x="45"
+        y="68"
         fill="#8E8E93"
         font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
         font-size="14"
         font-weight="400">
-        I’m a full-stack software engineer and web developer with a focus on building web applications,
+        I’m a full-stack software engineer and web developer with a focus on building web applications, AI-powered software,
     </text>
     
 
     <text
-        x="55"
-        y="91"
+        x="45"
+        y="95"
         fill="#8E8E93"
         font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
         font-size="14"
         font-weight="400">
-        AI-powered software, and full-stack systems. I work across the stack, from designing interfaces
+        and full-stack systems. I work across the stack, from designing interfaces and developing frontend experiences to building
     </text>
     
 
     <text
-        x="55"
-        y="116"
+        x="45"
+        y="122"
         fill="#8E8E93"
         font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
         font-size="14"
         font-weight="400">
-        and developing frontend experiences to building APIs, databases, authentication, and deployment
+        APIs, databases, authentication, and deployment workflows. I’m particularly interested in the intersection of software
     </text>
     
 
     <text
-        x="55"
-        y="141"
+        x="45"
+        y="149"
         fill="#8E8E93"
         font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
         font-size="14"
         font-weight="400">
-        workflows. I’m particularly interested in the intersection of software engineering and AI,
-    </text>
-    
-
-    <text
-        x="55"
-        y="166"
-        fill="#8E8E93"
-        font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
-        font-size="14"
-        font-weight="400">
-        and in using modern tools and technologies to turn ideas into working products.
+        engineering and AI, and in using modern tools and technologies to turn ideas into working products.
     </text>
     
 

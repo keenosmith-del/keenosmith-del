@@ -2,19 +2,19 @@
 <svg
     xmlns="http://www.w3.org/2000/svg"
     width="1200"
-    height="330"
-    viewBox="0 0 1200 330">
+    height="390"
+    viewBox="0 0 1200 390">
 
     <rect
         width="1200"
-        height="330"
+        height="390"
         rx="34"
         fill="#080808"
     />
 
     <text
         x="600"
-        y="135"
+        y="125"
         text-anchor="middle"
         fill="#F5F5F7"
         font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
@@ -26,7 +26,7 @@
 
     <text
         x="600"
-        y="190"
+        y="178"
         text-anchor="middle"
         fill="#86868B"
         font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
@@ -34,5 +34,77 @@
         font-weight="400">
         Full-Stack Software Engineer · Web Developer · AI Application Development
     </text>
+
+    <!-- Email -->
+
+    <a href="mailto:business.keenosmith@icloud.com">
+        <rect
+            x="360"
+            y="245"
+            width="130"
+            height="40"
+            rx="20"
+            fill="#101010"
+        />
+
+        <text
+            x="425"
+            y="270"
+            text-anchor="middle"
+            fill="#D2D2D7"
+            font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
+            font-size="13"
+            font-weight="500">
+            Email
+        </text>
+    </a>
+
+    <!-- LinkedIn -->
+
+    <a href="https://www.linkedin.com/in/keenotreysmith/">
+        <rect
+            x="505"
+            y="245"
+            width="140"
+            height="40"
+            rx="20"
+            fill="#101010"
+        />
+
+        <text
+            x="575"
+            y="270"
+            text-anchor="middle"
+            fill="#D2D2D7"
+            font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
+            font-size="13"
+            font-weight="500">
+            LinkedIn
+        </text>
+    </a>
+
+    <!-- Portfolio -->
+
+    <a href="https://keenosmith.vercel.app">
+        <rect
+            x="660"
+            y="245"
+            width="140"
+            height="40"
+            rx="20"
+            fill="#101010"
+        />
+
+        <text
+            x="730"
+            y="270"
+            text-anchor="middle"
+            fill="#D2D2D7"
+            font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
+            font-size="13"
+            font-weight="500">
+            Portfolio
+        </text>
+    </a>
 
 </svg>

@@ -6,13 +6,6 @@
         viewBox="0 0 590 475">
 
         <defs>
-            <clipPath id="cardClip">
-                <rect
-                    width="590"
-                    height="475"
-                    rx="28"
-                />
-            </clipPath>
 
             <clipPath id="imageClip">
                 <rect
@@ -23,6 +16,7 @@
                     rx="20"
                 />
             </clipPath>
+
         </defs>
 
         <rect

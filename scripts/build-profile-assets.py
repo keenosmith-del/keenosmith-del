@@ -1,6 +1,5 @@
 import base64
 import html
-import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -11,9 +10,6 @@ OUT.mkdir(parents=True, exist_ok=True)
 
 FONT = "-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
 
-# ---------------------------------------------------------
-# Helpers
-# ---------------------------------------------------------
 
 def data_uri(path: Path, mime: str):
     encoded = base64.b64encode(path.read_bytes()).decode("utf-8")
@@ -34,30 +30,30 @@ def png_image(filename: str):
     return data_uri(ASSETS / "projects" / filename, "image/png")
 
 
-# ---------------------------------------------------------
-# Intro
-# ---------------------------------------------------------
+# =========================================================
+# INTRO
+# =========================================================
 
-intro = f"""
+intro = """
 <svg
     xmlns="http://www.w3.org/2000/svg"
     width="1200"
-    height="330"
-    viewBox="0 0 1200 330">
+    height="390"
+    viewBox="0 0 1200 390">
 
     <rect
         width="1200"
-        height="330"
+        height="390"
         rx="34"
         fill="#080808"
     />
 
     <text
         x="600"
-        y="135"
+        y="125"
         text-anchor="middle"
         fill="#F5F5F7"
-        font-family="{FONT}"
+        font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
         font-size="72"
         font-weight="300"
         letter-spacing="-4">
@@ -66,14 +62,86 @@ intro = f"""
 
     <text
         x="600"
-        y="190"
+        y="178"
         text-anchor="middle"
         fill="#86868B"
-        font-family="{FONT}"
+        font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
         font-size="18"
         font-weight="400">
         Full-Stack Software Engineer · Web Developer · AI Application Development
     </text>
+
+    <!-- Email -->
+
+    <a href="mailto:business.keenosmith@icloud.com">
+        <rect
+            x="360"
+            y="245"
+            width="130"
+            height="40"
+            rx="20"
+            fill="#101010"
+        />
+
+        <text
+            x="425"
+            y="270"
+            text-anchor="middle"
+            fill="#D2D2D7"
+            font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
+            font-size="13"
+            font-weight="500">
+            Email
+        </text>
+    </a>
+
+    <!-- LinkedIn -->
+
+    <a href="https://www.linkedin.com/in/keenotreysmith/">
+        <rect
+            x="505"
+            y="245"
+            width="140"
+            height="40"
+            rx="20"
+            fill="#101010"
+        />
+
+        <text
+            x="575"
+            y="270"
+            text-anchor="middle"
+            fill="#D2D2D7"
+            font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
+            font-size="13"
+            font-weight="500">
+            LinkedIn
+        </text>
+    </a>
+
+    <!-- Portfolio -->
+
+    <a href="https://keenosmith.vercel.app">
+        <rect
+            x="660"
+            y="245"
+            width="140"
+            height="40"
+            rx="20"
+            fill="#101010"
+        />
+
+        <text
+            x="730"
+            y="270"
+            text-anchor="middle"
+            fill="#D2D2D7"
+            font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
+            font-size="13"
+            font-weight="500">
+            Portfolio
+        </text>
+    </a>
 
 </svg>
 """
@@ -81,23 +149,22 @@ intro = f"""
 write_svg("intro.svg", intro)
 
 
-# ---------------------------------------------------------
-# About
-# ---------------------------------------------------------
+# =========================================================
+# ABOUT
+# =========================================================
 
 about_lines = [
-    "I’m a full-stack software engineer and web developer with a focus on building web applications,",
-    "AI-powered software, and full-stack systems. I work across the stack, from designing interfaces",
-    "and developing frontend experiences to building APIs, databases, authentication, and deployment",
-    "workflows. I’m particularly interested in the intersection of software engineering and AI,",
-    "and in using modern tools and technologies to turn ideas into working products.",
+    "I’m a full-stack software engineer and web developer with a focus on building web applications, AI-powered software,",
+    "and full-stack systems. I work across the stack, from designing interfaces and developing frontend experiences to building",
+    "APIs, databases, authentication, and deployment workflows. I’m particularly interested in the intersection of software",
+    "engineering and AI, and in using modern tools and technologies to turn ideas into working products.",
 ]
 
 about_text = "\n".join(
     f"""
     <text
-        x="55"
-        y="{66 + i * 25}"
+        x="45"
+        y="{68 + i * 27}"
         fill="#8E8E93"
         font-family="{FONT}"
         font-size="14"
@@ -112,12 +179,12 @@ about = f"""
 <svg
     xmlns="http://www.w3.org/2000/svg"
     width="1200"
-    height="190"
-    viewBox="0 0 1200 190">
+    height="180"
+    viewBox="0 0 1200 180">
 
     <rect
         width="1200"
-        height="190"
+        height="180"
         rx="34"
         fill="#080808"
     />
@@ -130,9 +197,9 @@ about = f"""
 write_svg("about.svg", about)
 
 
-# ---------------------------------------------------------
-# Technologies
-# ---------------------------------------------------------
+# =========================================================
+# TECHNOLOGIES
+# =========================================================
 
 technologies = [
     ("React", "react.svg"),
@@ -172,6 +239,7 @@ start_x = 44
 start_y = 46
 
 for index, (name, icon_file) in enumerate(technologies):
+
     row = index // cols
     col = index % cols
 
@@ -183,6 +251,7 @@ for index, (name, icon_file) in enumerate(technologies):
     tech_items.append(
         f"""
         <g>
+
             <rect
                 x="{x}"
                 y="{y}"
@@ -192,23 +261,33 @@ for index, (name, icon_file) in enumerate(technologies):
                 fill="#0D0D0D"
             />
 
+            <!-- white icon backing -->
+            <circle
+                cx="{x + 32}"
+                cy="{y + 34}"
+                r="15"
+                fill="#F5F5F7"
+            />
+
             <image
                 href="{icon}"
                 x="{x + 20}"
                 y="{y + 22}"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
                 x="{x + 58}"
-                y="{y + 41}"
+                y="{y + 39}"
                 fill="#D2D2D7"
                 font-family="{FONT}"
                 font-size="13"
                 font-weight="500">
                 {html.escape(name)}
             </text>
+
         </g>
         """
     )
@@ -235,9 +314,9 @@ tech = f"""
 write_svg("technologies.svg", tech)
 
 
-# ---------------------------------------------------------
-# Project cards
-# ---------------------------------------------------------
+# =========================================================
+# PROJECTS
+# =========================================================
 
 projects = [
     {
@@ -250,6 +329,7 @@ projects = [
         "stack": "React · Node.js · Express · MongoDB · Mongoose · JWT",
         "image": "productivityProjectImage.png",
     },
+
     {
         "filename": "project2.svg",
         "title": "AI Model",
@@ -260,6 +340,7 @@ projects = [
         "stack": "React · OpenAI · RAG · Hugging Face · LLMs",
         "image": "aiProjectImage.png",
     },
+
     {
         "filename": "project3.svg",
         "title": "Music API Web App",
@@ -270,6 +351,7 @@ projects = [
         "stack": "FastAPI · MongoDB · Postman · API Development · REST API",
         "image": "musicProjectImage.png",
     },
+
     {
         "filename": "project4.svg",
         "title": "SQL Enterprise Workspace",
@@ -282,7 +364,15 @@ projects = [
     },
 ]
 
+
 for project in projects:
+
+    image_path = ASSETS / "projects" / project["image"]
+
+    if not image_path.exists():
+        print(f"WARNING: missing project image: {image_path}")
+        continue
+
     image = png_image(project["image"])
 
     desc_svg = "".join(
@@ -308,13 +398,6 @@ for project in projects:
         viewBox="0 0 590 475">
 
         <defs>
-            <clipPath id="cardClip">
-                <rect
-                    width="590"
-                    height="475"
-                    rx="28"
-                />
-            </clipPath>
 
             <clipPath id="imageClip">
                 <rect
@@ -325,6 +408,7 @@ for project in projects:
                     rx="20"
                 />
             </clipPath>
+
         </defs>
 
         <rect
@@ -396,45 +480,3 @@ for project in projects:
     """
 
     write_svg(project["filename"], card)
-
-
-# ---------------------------------------------------------
-# Link pills
-# ---------------------------------------------------------
-
-pills = [
-    ("email-pill.svg", "Email", 120),
-    ("linkedin-pill.svg", "LinkedIn", 140),
-    ("portfolio-pill.svg", "Portfolio", 140),
-]
-
-for filename, label, width in pills:
-    pill = f"""
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="{width}"
-        height="38"
-        viewBox="0 0 {width} 38">
-
-        <rect
-            width="{width}"
-            height="38"
-            rx="19"
-            fill="#0D0D0D"
-        />
-
-        <text
-            x="{width / 2}"
-            y="24"
-            text-anchor="middle"
-            fill="#D2D2D7"
-            font-family="{FONT}"
-            font-size="13"
-            font-weight="500">
-            {label}
-        </text>
-
-    </svg>
-    """
-
-    write_svg(filename, pill)

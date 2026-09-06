@@ -14,6 +14,7 @@
 
     
         <g>
+
             <rect
                 x="44"
                 y="46"
@@ -21,6 +22,14 @@
                 height="68"
                 rx="18"
                 fill="#0D0D0D"
+            />
+
+            <!-- white icon backing -->
+            <circle
+                cx="76"
+                cy="80"
+                r="15"
+                fill="#F5F5F7"
             />
 
             <image
@@ -29,20 +38,23 @@
                 y="68"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
                 x="102"
-                y="87"
+                y="85"
                 fill="#D2D2D7"
                 font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
                 font-size="13"
                 font-weight="500">
                 React
             </text>
+
         </g>
         
         <g>
+
             <rect
                 x="264"
                 y="46"
@@ -50,6 +62,14 @@
                 height="68"
                 rx="18"
                 fill="#0D0D0D"
+            />
+
+            <!-- white icon backing -->
+            <circle
+                cx="296"
+                cy="80"
+                r="15"
+                fill="#F5F5F7"
             />
 
             <image
@@ -58,20 +78,23 @@
                 y="68"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
                 x="322"
-                y="87"
+                y="85"
                 fill="#D2D2D7"
                 font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
                 font-size="13"
                 font-weight="500">
                 JavaScript
             </text>
+
         </g>
         
         <g>
+
             <rect
                 x="484"
                 y="46"
@@ -79,6 +102,14 @@
                 height="68"
                 rx="18"
                 fill="#0D0D0D"
+            />
+
+            <!-- white icon backing -->
+            <circle
+                cx="516"
+                cy="80"
+                r="15"
+                fill="#F5F5F7"
             />
 
             <image
@@ -87,20 +118,23 @@
                 y="68"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
                 x="542"
-                y="87"
+                y="85"
                 fill="#D2D2D7"
                 font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
                 font-size="13"
                 font-weight="500">
                 Node.js
             </text>
+
         </g>
         
         <g>
+
             <rect
                 x="704"
                 y="46"
@@ -108,6 +142,14 @@
                 height="68"
                 rx="18"
                 fill="#0D0D0D"
+            />
+
+            <!-- white icon backing -->
+            <circle
+                cx="736"
+                cy="80"
+                r="15"
+                fill="#F5F5F7"
             />
 
             <image
@@ -116,20 +158,23 @@
                 y="68"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
                 x="762"
-                y="87"
+                y="85"
                 fill="#D2D2D7"
                 font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
                 font-size="13"
                 font-weight="500">
                 Express
             </text>
+
         </g>
         
         <g>
+
             <rect
                 x="924"
                 y="46"
@@ -139,26 +184,37 @@
                 fill="#0D0D0D"
             />
 
+            <!-- white icon backing -->
+            <circle
+                cx="956"
+                cy="80"
+                r="15"
+                fill="#F5F5F7"
+            />
+
             <image
                 href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TW9uZ29EQjwvdGl0bGU+PHBhdGggZD0iTTE3LjE5MyA5LjU1NWMtMS4yNjQtNS41OC00LjI1Mi03LjQxNC00LjU3My04LjExNS0uMjgtLjM5NC0uNTMtLjk1NC0uNzM1LTEuNDQtLjAzNi40OTUtLjA1NS42ODUtLjUyMyAxLjE4NC0uNzIzLjU2Ni00LjQzOCAzLjY4Mi00Ljc0IDEwLjAyLS4yODIgNS45MTIgNC4yNyA5LjQzNSA0Ljg4OCA5Ljg4NGwuMDcuMDVBNzMuNDkgNzMuNDkgMCAwMTExLjkxIDI0aC40ODFjLjExNC0xLjAzMi4yODQtMi4wNTYuNTEtMy4wNy40MTctLjI5Ni42MDQtLjQ2My44NS0uNjkzYTExLjM0MiAxMS4zNDIgMCAwMDMuNjM5LTguNDY0Yy4wMS0uODE0LS4xMDMtMS42NjItLjE5Ny0yLjIxOHptLTUuMzM2IDguMTk1czAtOC4yOTEuMjc1LTguMjljLjIxMyAwIC40OSAxMC42OTUuNDkgMTAuNjk1LS4zODEtLjA0NS0uNzY1LTEuNzYtLjc2NS0yLjQwNXoiLz48L3N2Zz4="
                 x="944"
                 y="68"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
                 x="982"
-                y="87"
+                y="85"
                 fill="#D2D2D7"
                 font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
                 font-size="13"
                 font-weight="500">
                 MongoDB
             </text>
+
         </g>
         
         <g>
+
             <rect
                 x="44"
                 y="126"
@@ -166,6 +222,14 @@
                 height="68"
                 rx="18"
                 fill="#0D0D0D"
+            />
+
+            <!-- white icon backing -->
+            <circle
+                cx="76"
+                cy="160"
+                r="15"
+                fill="#F5F5F7"
             />
 
             <image
@@ -174,20 +238,23 @@
                 y="148"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
                 x="102"
-                y="167"
+                y="165"
                 fill="#D2D2D7"
                 font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
                 font-size="13"
                 font-weight="500">
                 Mongoose
             </text>
+
         </g>
         
         <g>
+
             <rect
                 x="264"
                 y="126"
@@ -195,6 +262,14 @@
                 height="68"
                 rx="18"
                 fill="#0D0D0D"
+            />
+
+            <!-- white icon backing -->
+            <circle
+                cx="296"
+                cy="160"
+                r="15"
+                fill="#F5F5F7"
             />
 
             <image
@@ -203,20 +278,23 @@
                 y="148"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
                 x="322"
-                y="167"
+                y="165"
                 fill="#D2D2D7"
                 font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
                 font-size="13"
                 font-weight="500">
                 PostgreSQL
             </text>
+
         </g>
         
         <g>
+
             <rect
                 x="484"
                 y="126"
@@ -224,6 +302,14 @@
                 height="68"
                 rx="18"
                 fill="#0D0D0D"
+            />
+
+            <!-- white icon backing -->
+            <circle
+                cx="516"
+                cy="160"
+                r="15"
+                fill="#F5F5F7"
             />
 
             <image
@@ -232,20 +318,23 @@
                 y="148"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
                 x="542"
-                y="167"
+                y="165"
                 fill="#D2D2D7"
                 font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
                 font-size="13"
                 font-weight="500">
                 Python
             </text>
+
         </g>
         
         <g>
+
             <rect
                 x="704"
                 y="126"
@@ -253,6 +342,14 @@
                 height="68"
                 rx="18"
                 fill="#0D0D0D"
+            />
+
+            <!-- white icon backing -->
+            <circle
+                cx="736"
+                cy="160"
+                r="15"
+                fill="#F5F5F7"
             />
 
             <image
@@ -261,20 +358,23 @@
                 y="148"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
                 x="762"
-                y="167"
+                y="165"
                 fill="#D2D2D7"
                 font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
                 font-size="13"
                 font-weight="500">
                 PyTorch
             </text>
+
         </g>
         
         <g>
+
             <rect
                 x="924"
                 y="126"
@@ -284,26 +384,37 @@
                 fill="#0D0D0D"
             />
 
+            <!-- white icon backing -->
+            <circle
+                cx="956"
+                cy="160"
+                r="15"
+                fill="#F5F5F7"
+            />
+
             <image
                 href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+SHVnZ2luZyBGYWNlPC90aXRsZT48cGF0aCBkPSJNMTIuMDI1IDEuMTNjLTUuNzcgMC0xMC40NDkgNC42NDctMTAuNDQ5IDEwLjM3OCAwIDEuMTEyLjE3OCAyLjE4MS41MDMgMy4xODUuMDY0LS4yMjIuMjAzLS40NDQuNDE2LS41NzdhLjk2Ljk2IDAgMCAxIC41MjQtLjE1Yy4yOTMgMCAuNTg0LjEyNC44NC4yODQuMjc4LjE3My40OC40MDguNzEuNjk0LjIyNi4yODIuNDU4LjYxMS42ODQuOTUxdi0uMDE0Yy4wMTctLjMyNC4xMDYtLjYyMi4yNjQtLjg3NHMuNDAzLS40ODcuNzYyLS41NDNjLjMtLjA0Ny41OTYuMDYuNzg3LjIwM3MuMzEuMzEzLjQuNDY3Yy4xNS4yNTcuMjEyLjQ2OC4yMzMuNTQyLjAxLjAyNi42NTMgMS41NTIgMS42NTcgMi41NC42MTYuNjA1IDEuMDEgMS4yMjMgMS4wODIgMS45MTIuMDU1LjUzNy0uMDk2IDEuMDU5LS4zOCAxLjU3Mi42MzcuMTIxIDEuMjk0LjE4NyAxLjk2Ny4xODcuNjU3IDAgMS4yOTgtLjA2MyAxLjkyMS0uMTc4LS4yODctLjUxNy0uNDQtMS4wNDEtLjM4NC0xLjU4MS4wNy0uNjkuNDY1LTEuMzA3IDEuMDgxLTEuOTEzIDEuMDA0LS45ODcgMS42NDctMi41MTMgMS42NTctMi41MzkuMDIxLS4wNzQuMDgzLS4yODUuMjMzLS41NDIuMDktLjE1NC4yMDgtLjMyMy40LS40NjdhMS4wOCAxLjA4IDAgMCAxIC43ODctLjIwM2MuMzU5LjA1Ni42MDQuMjkuNzYyLjU0M3MuMjQ3LjU1LjI2NS44NzR2LjAxNWMuMjI1LS4zNC40NTctLjY3LjY4My0uOTUyLjIzLS4yODYuNDMyLS41Mi43MS0uNjk0LjI1Ny0uMTYuNTQ3LS4yODQuODQtLjI4NWEuOTcuOTcgMCAwIDEgLjUyNC4xNTFjLjIyOC4xNDMuMzczLjM4OC40My42MjVsLjAwNi4wNGExMC4zIDEwLjMgMCAwIDAgLjUzNC0zLjI3M2MwLTUuNzMxLTQuNjc4LTEwLjM3OC0xMC40NDktMTAuMzc4TTguMzI3IDYuNTgzYTEuNSAxLjUgMCAwIDEgLjcxMy4xNzQgMS40ODcgMS40ODcgMCAwIDEgLjYxNyAyLjAxM2MtLjE4My4zNDMtLjc2Mi0uMjE0LTEuMTAyLS4wOTQtLjM4LjEzNC0uNTMyLjkxNC0uOTE3LjcxYTEuNDg3IDEuNDg3IDAgMCAxIC42OS0yLjgwM203LjQ4NiAwYTEuNDg3IDEuNDg3IDAgMCAxIC42ODkgMi44MDNjLS4zODUuMjA0LS41MzYtLjU3Ni0uOTE2LS43MS0uMzQtLjEyLS45Mi40MzctMS4xMDMuMDk0YTEuNDg3IDEuNDg3IDAgMCAxIC42MTctMi4wMTMgMS41IDEuNSAwIDAgMSAuNzEzLS4xNzRtLTEwLjY4IDEuNTVhLjk2Ljk2IDAgMSAxIDAgMS45MjEuOTYuOTYgMCAwIDEgMC0xLjkybTEzLjgzOCAwYS45Ni45NiAwIDEgMSAwIDEuOTIuOTYuOTYgMCAwIDEgMC0xLjkyTTguNDg5IDExLjQ1OGMuNTg4LjAxIDEuOTY1IDEuMTU3IDMuNTcyIDEuMTY0IDEuNjA3LS4wMDcgMi45ODQtMS4xNTUgMy41NzItMS4xNjQuMTk2LS4wMDMuMzA1LjEyLjMwNS40NTQgMCAuODg2LS40MjQgMi4zMjgtMS41NjMgMy4yMDItLjIyLS43NTYtMS4zOTYtMS4zNjYtMS42My0xLjMycS0uMDExLjAwMS0uMDIuMDA2bC0uMDQ0LjAyNi0uMDEuMDA4LS4wMy4wMjRxLS4wMTguMDE3LS4wMzUuMDM2bC0uMDMyLjA0YTEgMSAwIDAgMC0uMDU4LjA5bC0uMDE0LjAyNXEtLjA0OS4wODgtLjExLjE5YTEgMSAwIDAgMS0uMDgzLjExNiAxLjIgMS4yIDAgMCAxLS4xNzMuMThxLS4wMzUuMDI5LS4wNzUuMDU4YTEuMyAxLjMgMCAwIDEtLjI1MS0uMjQzIDEgMSAwIDAgMS0uMDc2LS4xMDdjLS4xMjQtLjE5My0uMTc3LS4zNjMtLjMzNy0uNDQ0LS4wMzQtLjAxNi0uMTA0LS4wMDgtLjIuMDIycS0uMDk0LjAzLS4yMTYuMDg3LS4wNi4wMjgtLjEyNS4wNjNsLS4xMy4wNzRxLS4wNjcuMDQtLjEzNi4wODZhMyAzIDAgMCAwLS4xMzUuMDk2IDMgMyAwIDAgMC0uMjYuMjE5IDIgMiAwIDAgMC0uMTIuMTIxIDIgMiAwIDAgMC0uMTA2LjEyOGwtLjAwMi4wMDJhMiAyIDAgMCAwLS4wOS4xMzJsLS4wMDEuMDAxYTEuMiAxLjIgMCAwIDAtLjEwNS4yMTJxLS4wMTMuMDM2LS4wMjQuMDczYy0xLjEzOS0uODc1LTEuNTYzLTIuMzE3LTEuNTYzLTMuMjAzIDAtLjMzNC4xMDktLjQ1Ny4zMDUtLjQ1NG0uODM2IDEwLjM1NGMuODI0LTEuMTkuNzY2LTIuMDgyLS4zNjUtMy4xOTQtMS4xMy0xLjExMi0xLjc4OS0yLjczOC0xLjc4OS0yLjczOHMtLjI0Ni0uOTQ1LS44MDYtLjg1OC0uOTcgMS40OTkuMjAyIDIuMzYyYzEuMTczLjg2NC0uMjMzIDEuNDUtLjY4NS42NC0uNDUtLjgxMi0xLjY4My0yLjg5Ni0yLjMyMi0zLjI5NXMtMS4wODktLjE3NS0uOTM4LjY0NyAyLjgyMiAyLjgxMyAyLjU2MiAzLjI0NC0xLjE3Ni0uNTA2LTEuMTc2LS41MDYtMi44NjYtMi41NjctMy40OS0xLjg5OC40NzMgMS4yMyAyLjAzNyAyLjE2YzEuNTY0LjkzMiAxLjY4NiAxLjE3OCAxLjQ2NCAxLjUzcy0zLjY3NS0yLjUxMS00LTEuMjk3Yy0uMzIzIDEuMjE0IDMuNTI0IDEuNTY3IDMuMjg3IDIuNDA1LS4yMzguODM5LTIuNzEtMS41ODctMy4yMTYtLjY0Mi0uNTA2Ljk0NiAzLjQ5IDIuMDU2IDMuNTIyIDIuMDY0IDEuMjkuMzMgNC41NjggMS4wMjggNS43MTMtLjYyNG01LjM0OSAwYy0uODI0LTEuMTktLjc2Ni0yLjA4Mi4zNjUtMy4xOTQgMS4xMy0xLjExMiAxLjc4OS0yLjczOCAxLjc4OS0yLjczOHMuMjQ2LS45NDUuODA2LS44NTguOTcgMS40OTktLjIwMiAyLjM2MmMtMS4xNzMuODY0LjIzMyAxLjQ1LjY4NS42NC40NTEtLjgxMiAxLjY4My0yLjg5NiAyLjMyMi0zLjI5NXMxLjA4OS0uMTc1LjkzOC42NDctMi44MjIgMi44MTMtMi41NjIgMy4yNDQgMS4xNzYtLjUwNiAxLjE3Ni0uNTA2IDIuODY2LTIuNTY3IDMuNDktMS44OTgtLjQ3MyAxLjIzLTIuMDM3IDIuMTZjLTEuNTY0LjkzMi0xLjY4NiAxLjE3OC0xLjQ2NCAxLjUzczMuNjc1LTIuNTExIDQtMS4yOTdjLjMyMyAxLjIxNC0zLjUyNCAxLjU2Ny0zLjI4NyAyLjQwNS4yMzguODM5IDIuNzEtMS41ODcgMy4yMTYtLjY0Mi41MDYuOTQ2LTMuNDkgMi4wNTYtMy41MjIgMi4wNjQtMS4yOS4zMy00LjU2OCAxLjAyOC01LjcxMy0uNjI0Ii8+PC9zdmc+"
                 x="944"
                 y="148"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
                 x="982"
-                y="167"
+                y="165"
                 fill="#D2D2D7"
                 font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
                 font-size="13"
                 font-weight="500">
                 Hugging Face
             </text>
+
         </g>
         
         <g>
+
             <rect
                 x="44"
                 y="206"
@@ -311,6 +422,14 @@
                 height="68"
                 rx="18"
                 fill="#0D0D0D"
+            />
+
+            <!-- white icon backing -->
+            <circle
+                cx="76"
+                cy="240"
+                r="15"
+                fill="#F5F5F7"
             />
 
             <image
@@ -319,20 +438,23 @@
                 y="228"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
                 x="102"
-                y="247"
+                y="245"
                 fill="#D2D2D7"
                 font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
                 font-size="13"
                 font-weight="500">
                 Claude
             </text>
+
         </g>
         
         <g>
+
             <rect
                 x="264"
                 y="206"
@@ -342,26 +464,37 @@
                 fill="#0D0D0D"
             />
 
+            <!-- white icon backing -->
+            <circle
+                cx="296"
+                cy="240"
+                r="15"
+                fill="#F5F5F7"
+            />
+
             <image
                 href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R2l0SHViIENvcGlsb3Q8L3RpdGxlPjxwYXRoIGQ9Ik0yMy45MjIgMTYuOTk3QzIzLjA2MSAxOC40OTIgMTguMDYzIDIyLjAyIDEyIDIyLjAyIDUuOTM3IDIyLjAyLjkzOSAxOC40OTIuMDc4IDE2Ljk5N0EuNjQxLjY0MSAwIDAgMSAwIDE2Ljc0MXYtMi44NjlhLjg4My44ODMgMCAwIDEgLjA1My0uMjJjLjM3Mi0uOTM1IDEuMzQ3LTIuMjkyIDIuNjA1LTIuNjU2LjE2Ny0uNDI5LjQxNC0xLjA1NS42NDQtMS41MTdhMTAuMDk4IDEwLjA5OCAwIDAgMS0uMDUyLTEuMDg2YzAtMS4zMzEuMjgyLTIuNDk5IDEuMTMyLTMuMzY4LjM5Ny0uNDA2Ljg5LS43MTcgMS40NzQtLjk1MkM3LjI1NSAyLjkzNyA5LjI0OCAxLjk4IDExLjk3OCAxLjk4YzIuNzMxIDAgNC43NjcuOTU3IDYuMTY2IDIuMDkzLjU4NC4yMzUgMS4wNzcuNTQ2IDEuNDc0Ljk1Mi44NS44NjkgMS4xMzIgMi4wMzcgMS4xMzIgMy4zNjggMCAuMzY4LS4wMTQuNzMzLS4wNTIgMS4wODYuMjMuNDYyLjQ3NyAxLjA4OC42NDQgMS41MTcgMS4yNTguMzY0IDIuMjMzIDEuNzIxIDIuNjA1IDIuNjU2YS44NDEuODQxIDAgMCAxIC4wNTMuMjJ2Mi44NjlhLjY0MS42NDEgMCAwIDEtLjA3OC4yNTZabS0xMS43NS01Ljk5MmgtLjM0NGE0LjM1OSA0LjM1OSAwIDAgMS0uMzU1LjUwOGMtLjc3Ljk0Ny0xLjkxOCAxLjQ5Mi0zLjUwOCAxLjQ5Mi0xLjcyNSAwLTIuOTg5LS4zNTktMy43ODItMS4yNTlhMi4xMzcgMi4xMzcgMCAwIDEtLjA4NS0uMTA0TDQgMTEuNzQ2djYuNTg1YzEuNDM1Ljc3OSA0LjUxNCAyLjE3OSA4IDIuMTc5IDMuNDg2IDAgNi41NjUtMS40IDgtMi4xNzl2LTYuNTg1bC0uMDk4LS4xMDRzLS4wMzMuMDQ1LS4wODUuMTA0Yy0uNzkzLjktMi4wNTcgMS4yNTktMy43ODIgMS4yNTktMS41OSAwLTIuNzM4LS41NDUtMy41MDgtMS40OTJhNC4zNTkgNC4zNTkgMCAwIDEtLjM1NS0uNTA4Wm0yLjMyOCAzLjI1Yy41NDkgMCAxIC40NTEgMSAxdjJjMCAuNTQ5LS40NTEgMS0xIDEtLjU0OSAwLTEtLjQ1MS0xLTF2LTJjMC0uNTQ5LjQ1MS0xIDEtMVptLTUgMGMuNTQ5IDAgMSAuNDUxIDEgMXYyYzAgLjU0OS0uNDUxIDEtMSAxLS41NDkgMC0xLS40NTEtMS0xdi0yYzAtLjU0OS40NTEtMSAxLTFabTMuMzEzLTYuMTg1Yy4xMzYgMS4wNTcuNDAzIDEuOTEzLjg3OCAyLjQ5Ny40NDIuNTQ0IDEuMTM0LjkzOCAyLjM0NC45MzggMS41NzMgMCAyLjI5Mi0uMzM3IDIuNjU3LS43NTEuMzg0LS40MzUuNTU4LTEuMTUuNTU4LTIuMzYxIDAtMS4xNC0uMjQzLTEuODQ3LS43MDUtMi4zMTktLjQ3Ny0uNDg4LTEuMzE5LS44NjItMi44MjQtMS4wMjUtMS40ODctLjE2MS0yLjE5Mi4xMzgtMi41MzMuNTI5LS4yNjkuMzA3LS40MzcuODA4LS40MzggMS41Nzh2LjAyMWMwIC4yNjUuMDIxLjU2Mi4wNjMuODkzWm0tMS42MjYgMGMuMDQyLS4zMzEuMDYzLS42MjguMDYzLS44OTR2LS4wMmMtLjAwMS0uNzctLjE2OS0xLjI3MS0uNDM4LTEuNTc4LS4zNDEtLjM5MS0xLjA0Ni0uNjktMi41MzMtLjUyOS0xLjUwNS4xNjMtMi4zNDcuNTM3LTIuODI0IDEuMDI1LS40NjIuNDcyLS43MDUgMS4xNzktLjcwNSAyLjMxOSAwIDEuMjExLjE3NSAxLjkyNi41NTggMi4zNjEuMzY1LjQxNCAxLjA4NC43NTEgMi42NTcuNzUxIDEuMjEgMCAxLjkwMi0uMzk0IDIuMzQ0LS45MzguNDc1LS41ODQuNzQyLTEuNDQuODc4LTIuNDk3WiIvPjwvc3ZnPg=="
                 x="284"
                 y="228"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
                 x="322"
-                y="247"
+                y="245"
                 fill="#D2D2D7"
                 font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
                 font-size="13"
                 font-weight="500">
                 GitHub Copilot
             </text>
+
         </g>
         
         <g>
+
             <rect
                 x="484"
                 y="206"
@@ -371,26 +504,37 @@
                 fill="#0D0D0D"
             />
 
+            <!-- white icon backing -->
+            <circle
+                cx="516"
+                cy="240"
+                r="15"
+                fill="#F5F5F7"
+            />
+
             <image
                 href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R2l0SHViPC90aXRsZT48cGF0aCBkPSJNMTIgLjI5N2MtNi42MyAwLTEyIDUuMzczLTEyIDEyIDAgNS4zMDMgMy40MzggOS44IDguMjA1IDExLjM4NS42LjExMy44Mi0uMjU4LjgyLS41NzcgMC0uMjg1LS4wMS0xLjA0LS4wMTUtMi4wNC0zLjMzOC43MjQtNC4wNDItMS42MS00LjA0Mi0xLjYxQzQuNDIyIDE4LjA3IDMuNjMzIDE3LjcgMy42MzMgMTcuN2MtMS4wODctLjc0NC4wODQtLjcyOS4wODQtLjcyOSAxLjIwNS4wODQgMS44MzggMS4yMzYgMS44MzggMS4yMzYgMS4wNyAxLjgzNSAyLjgwOSAxLjMwNSAzLjQ5NS45OTguMTA4LS43NzYuNDE3LTEuMzA1Ljc2LTEuNjA1LTIuNjY1LS4zLTUuNDY2LTEuMzMyLTUuNDY2LTUuOTMgMC0xLjMxLjQ2NS0yLjM4IDEuMjM1LTMuMjItLjEzNS0uMzAzLS41NC0xLjUyMy4xMDUtMy4xNzYgMCAwIDEuMDA1LS4zMjIgMy4zIDEuMjMuOTYtLjI2NyAxLjk4LS4zOTkgMy0uNDA1IDEuMDIuMDA2IDIuMDQuMTM4IDMgLjQwNSAyLjI4LTEuNTUyIDMuMjg1LTEuMjMgMy4yODUtMS4yMy42NDUgMS42NTMuMjQgMi44NzMuMTIgMy4xNzYuNzY1Ljg0IDEuMjMgMS45MSAxLjIzIDMuMjIgMCA0LjYxLTIuODA1IDUuNjI1LTUuNDc1IDUuOTIuNDIuMzYuODEgMS4wOTYuODEgMi4yMiAwIDEuNjA2LS4wMTUgMi44OTYtLjAxNSAzLjI4NiAwIC4zMTUuMjEuNjkuODI1LjU3QzIwLjU2NSAyMi4wOTIgMjQgMTcuNTkyIDI0IDEyLjI5N2MwLTYuNjI3LTUuMzczLTEyLTEyLTEyIi8+PC9zdmc+"
                 x="504"
                 y="228"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
                 x="542"
-                y="247"
+                y="245"
                 fill="#D2D2D7"
                 font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
                 font-size="13"
                 font-weight="500">
                 GitHub
             </text>
+
         </g>
         
         <g>
+
             <rect
                 x="704"
                 y="206"
@@ -400,26 +544,37 @@
                 fill="#0D0D0D"
             />
 
+            <!-- white icon backing -->
+            <circle
+                cx="736"
+                cy="240"
+                r="15"
+                fill="#F5F5F7"
+            />
+
             <image
                 href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+RG9ja2VyPC90aXRsZT48cGF0aCBkPSJNMTMuOTgzIDExLjA3OGgyLjExOWEuMTg2LjE4NiAwIDAwLjE4Ni0uMTg1VjkuMDA2YS4xODYuMTg2IDAgMDAtLjE4Ni0uMTg2aC0yLjExOWEuMTg1LjE4NSAwIDAwLS4xODUuMTg1djEuODg4YzAgLjEwMi4wODMuMTg1LjE4NS4xODVtLTIuOTU0LTUuNDNoMi4xMThhLjE4Ni4xODYgMCAwMC4xODYtLjE4NlYzLjU3NGEuMTg2LjE4NiAwIDAwLS4xODYtLjE4NWgtMi4xMThhLjE4NS4xODUgMCAwMC0uMTg1LjE4NXYxLjg4OGMwIC4xMDIuMDgyLjE4NS4xODUuMTg1bTAgMi43MTZoMi4xMThhLjE4Ny4xODcgMCAwMC4xODYtLjE4NlY2LjI5YS4xODYuMTg2IDAgMDAtLjE4Ni0uMTg1aC0yLjExOGEuMTg1LjE4NSAwIDAwLS4xODUuMTg1djEuODg3YzAgLjEwMi4wODIuMTg1LjE4NS4xODZtLTIuOTMgMGgyLjEyYS4xODYuMTg2IDAgMDAuMTg0LS4xODZWNi4yOWEuMTg1LjE4NSAwIDAwLS4xODUtLjE4NUg4LjFhLjE4NS4xODUgMCAwMC0uMTg1LjE4NXYxLjg4N2MwIC4xMDIuMDgzLjE4NS4xODUuMTg2bS0yLjk2NCAwaDIuMTE5YS4xODYuMTg2IDAgMDAuMTg1LS4xODZWNi4yOWEuMTg1LjE4NSAwIDAwLS4xODUtLjE4NUg1LjEzNmEuMTg2LjE4NiAwIDAwLS4xODYuMTg1djEuODg3YzAgLjEwMi4wODQuMTg1LjE4Ni4xODZtNS44OTMgMi43MTVoMi4xMThhLjE4Ni4xODYgMCAwMC4xODYtLjE4NVY5LjAwNmEuMTg2LjE4NiAwIDAwLS4xODYtLjE4NmgtMi4xMThhLjE4NS4xODUgMCAwMC0uMTg1LjE4NXYxLjg4OGMwIC4xMDIuMDgyLjE4NS4xODUuMTg1bS0yLjkzIDBoMi4xMmEuMTg1LjE4NSAwIDAwLjE4NC0uMTg1VjkuMDA2YS4xODUuMTg1IDAgMDAtLjE4NC0uMTg2aC0yLjEyYS4xODUuMTg1IDAgMDAtLjE4NC4xODV2MS44ODhjMCAuMTAyLjA4My4xODUuMTg1LjE4NW0tMi45NjQgMGgyLjExOWEuMTg1LjE4NSAwIDAwLjE4NS0uMTg1VjkuMDA2YS4xODUuMTg1IDAgMDAtLjE4NC0uMTg2aC0yLjEyYS4xODYuMTg2IDAgMDAtLjE4Ni4xODZ2MS44ODdjMCAuMTAyLjA4NC4xODUuMTg2LjE4NW0tMi45MiAwaDIuMTJhLjE4NS4xODUgMCAwMC4xODQtLjE4NVY5LjAwNmEuMTg1LjE4NSAwIDAwLS4xODQtLjE4NmgtMi4xMmEuMTg1LjE4NSAwIDAwLS4xODQuMTg1djEuODg4YzAgLjEwMi4wODIuMTg1LjE4NS4xODVNMjMuNzYzIDkuODljLS4wNjUtLjA1MS0uNjcyLS41MS0xLjk1NC0uNTEtLjMzOC4wMDEtLjY3Ni4wMy0xLjAxLjA4Ny0uMjQ4LTEuNy0xLjY1My0yLjUzLTEuNzE2LTIuNTY2bC0uMzQ0LS4xOTktLjIyNi4zMjdjLS4yODQuNDM4LS40OS45MjItLjYxMiAxLjQzLS4yMy45Ny0uMDkgMS44ODIuNDAzIDIuNjYxLS41OTUuMzMyLTEuNTUuNDEzLTEuNzQ0LjQySC43NTFhLjc1MS43NTEgMCAwMC0uNzUuNzQ4IDExLjM3NiAxMS4zNzYgMCAwMC42OTIgNC4wNjJjLjU0NSAxLjQyOCAxLjM1NSAyLjQ4IDIuNDEgMy4xMjQgMS4xOC43MjMgMy4xIDEuMTM3IDUuMjc1IDEuMTM3Ljk4My4wMDMgMS45NjMtLjA4NiAyLjkzLS4yNjZhMTIuMjQ4IDEyLjI0OCAwIDAwMy44MjMtMS4zODljLjk4LS41NjcgMS44Ni0xLjI4OCAyLjYxLTIuMTM2IDEuMjUyLTEuNDE4IDEuOTk4LTIuOTk3IDIuNTUzLTQuNGguMjIxYzEuMzcyIDAgMi4yMTUtLjU0OSAyLjY4LTEuMDA5LjMwOS0uMjkzLjU1LS42NS43MDctMS4wNDZsLjA5OC0uMjg4WiIvPjwvc3ZnPg=="
                 x="724"
                 y="228"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
                 x="762"
-                y="247"
+                y="245"
                 fill="#D2D2D7"
                 font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
                 font-size="13"
                 font-weight="500">
                 Docker
             </text>
+
         </g>
         
         <g>
+
             <rect
                 x="924"
                 y="206"
@@ -429,26 +584,37 @@
                 fill="#0D0D0D"
             />
 
+            <!-- white icon backing -->
+            <circle
+                cx="956"
+                cy="240"
+                r="15"
+                fill="#F5F5F7"
+            />
+
             <image
                 href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+S3ViZXJuZXRlczwvdGl0bGU+PHBhdGggZD0iTTEwLjIwNCAxNC4zNWwuMDA3LjAxLS45OTkgMi40MTNhNS4xNzEgNS4xNzEgMCAwIDEtMi4wNzUtMi41OTdsMi41NzgtLjQzNy4wMDQuMDA1YS40NC40NCAwIDAgMSAuNDg0LjYwNnptLS44MzMtMi4xMjlhLjQ0LjQ0IDAgMCAwIC4xNzMtLjc1NmwuMDAyLS4wMTFMNy41ODUgOS43YTUuMTQzIDUuMTQzIDAgMCAwLS43MyAzLjI1NWwyLjUxNC0uNzI1LjAwMi0uMDA5em0xLjE0NS0xLjk4YS40NC40NCAwIDAgMCAuNjk5LS4zMzdsLjAxLS4wMDUuMTUtMi42MmE1LjE0NCA1LjE0NCAwIDAgMC0zLjAxIDEuNDQybDIuMTQ3IDEuNTIzLjAwNC0uMDAyem0uNzYgMi43NWwuNzIzLjM0OS43MjItLjM0Ny4xOC0uNzgtLjUtLjYyM2gtLjgwNGwtLjUuNjIzLjE3OS43Nzl6bTEuNS0zLjA5NWEuNDQuNDQgMCAwIDAgLjcuMzM2bC4wMDguMDAzIDIuMTM0LTEuNTEzYTUuMTg4IDUuMTg4IDAgMCAwLTIuOTkyLTEuNDQybC4xNDggMi42MTUuMDAyLjAwMXptMTAuODc2IDUuOTdsLTUuNzczIDcuMTgxYTEuNiAxLjYgMCAwIDEtMS4yNDguNTk0bC05LjI2MS4wMDNhMS42IDEuNiAwIDAgMS0xLjI0Ny0uNTk2bC01Ljc3Ni03LjE4YTEuNTgzIDEuNTgzIDAgMCAxLS4zMDctMS4zNEwyLjEgNS41NzNjLjEwOC0uNDcuNDI1LS44NjQuODYzLTEuMDczTDExLjMwNS41MTNhMS42MDYgMS42MDYgMCAwIDEgMS4zODUgMGw4LjM0NSAzLjk4NWMuNDM4LjIwOS43NTUuNjA0Ljg2MyAxLjA3M2wyLjA2MiA4Ljk1NWMuMTA4LjQ3LS4wMDUuOTYzLS4zMDggMS4zNHptLTMuMjg5LTIuMDU3Yy0uMDQyLS4wMS0uMTAzLS4wMjYtLjE0NS0uMDM0LS4xNzQtLjAzMy0uMzE1LS4wMjUtLjQ3OS0uMDM4LS4zNS0uMDM3LS42MzgtLjA2Ny0uODk1LS4xNDgtLjEwNS0uMDQtLjE4LS4xNjUtLjIxNi0uMjE2bC0uMjAxLS4wNTlhNi40NSA2LjQ1IDAgMCAwLS4xMDUtMi4zMzIgNi40NjUgNi40NjUgMCAwIDAtLjkzNi0yLjE2M2MuMDUyLS4wNDcuMTUtLjEzMy4xNzctLjE1OS4wMDgtLjA5LjAwMS0uMTgzLjA5NC0uMjgyLjE5Ny0uMTg1LjQ0NC0uMzM4Ljc0My0uNTIyLjE0Mi0uMDg0LjI3My0uMTM3LjQxNS0uMjQyLjAzMi0uMDI0LjA3Ni0uMDYyLjExLS4wODkuMjQtLjE5MS4yOTUtLjUyLjEyMy0uNzM2LS4xNzItLjIxNi0uNTA2LS4yMzYtLjc0NS0uMDQ1LS4wMzQuMDI3LS4wOC4wNjItLjExMS4wODgtLjEzNC4xMTYtLjIxNy4yMy0uMzMuMzUtLjI0Ni4yNS0uNDUuNDU4LS42NzMuNjA5LS4wOTcuMDU2LS4yMzkuMDM3LS4zMDMuMDMzbC0uMTkuMTM1YTYuNTQ1IDYuNTQ1IDAgMCAwLTQuMTQ2LTIuMDAzbC0uMDEyLS4yMjNjLS4wNjUtLjA2Mi0uMTQzLS4xMTUtLjE2My0uMjUtLjAyMi0uMjY4LjAxNS0uNTU3LjA1Ny0uOTA1LjAyMy0uMTYzLjA2MS0uMjk4LjA2OC0uNDc1LjAwMS0uMDQtLjAwMS0uMDk5LS4wMDEtLjE0MiAwLS4zMDYtLjIyNC0uNTU1LS41LS41NTUtLjI3NSAwLS40OTkuMjQ5LS40OTkuNTU1bC4wMDEuMDE0YzAgLjA0MS0uMDAyLjA5MiAwIC4xMjguMDA2LjE3Ny4wNDQuMzEyLjA2Ny40NzUuMDQyLjM0OC4wNzguNjM3LjA1Ni45MDZhLjU0NS41NDUgMCAwIDEtLjE2Mi4yNThsLS4wMTIuMjExYTYuNDI0IDYuNDI0IDAgMCAwLTQuMTY2IDIuMDAzIDguMzczIDguMzczIDAgMCAxLS4xOC0uMTI4Yy0uMDkuMDEyLS4xOC4wNC0uMjk3LS4wMjktLjIyMy0uMTUtLjQyNy0uMzU4LS42NzMtLjYwOC0uMTEzLS4xMi0uMTk1LS4yMzQtLjMyOS0uMzQ5LS4wMy0uMDI2LS4wNzctLjA2Mi0uMTExLS4wODhhLjU5NC41OTQgMCAwIDAtLjM0OC0uMTMyLjQ4MS40ODEgMCAwIDAtLjM5OC4xNzZjLS4xNzIuMjE2LS4xMTcuNTQ2LjEyMy43MzdsLjAwNy4wMDUuMTA0LjA4M2MuMTQyLjEwNS4yNzIuMTU5LjQxNC4yNDIuMjk5LjE4NS41NDYuMzM4Ljc0My41MjIuMDc2LjA4Mi4wOS4yMjYuMS4yODhsLjE2LjE0M2E2LjQ2MiA2LjQ2MiAwIDAgMC0xLjAyIDQuNTA2bC0uMjA4LjA2Yy0uMDU1LjA3Mi0uMTMzLjE4NC0uMjE1LjIxNy0uMjU3LjA4MS0uNTQ2LjExLS44OTUuMTQ3LS4xNjQuMDE0LS4zMDUuMDA2LS40OC4wMzktLjAzNy4wMDctLjA5LjAyLS4xMzMuMDNsLS4wMDQuMDAyLS4wMDcuMDAyYy0uMjk1LjA3MS0uNDg0LjM0Mi0uNDIzLjYwOC4wNjEuMjY3LjM0OS40MjkuNjQ1LjM2NWwuMDA3LS4wMDEuMDEtLjAwMy4xMjktLjAyOWMuMTctLjA0Ni4yOTQtLjExMy40NDgtLjE3Mi4zMy0uMTE4LjYwNC0uMjE3Ljg3LS4yNTYuMTEyLS4wMDkuMjMuMDY5LjI4OC4xMDFsLjIxNy0uMDM3YTYuNSA2LjUgMCAwIDAgMi44OCAzLjU5NmwtLjA5LjIxOGMuMDMzLjA4NC4wNjkuMTk5LjA0NC4yODItLjA5Ny4yNTItLjI2My41MTctLjQ1Mi44MTMtLjA5MS4xMzYtLjE4NS4yNDItLjI2OC4zOTktLjAyLjAzNy0uMDQ1LjA5NS0uMDY0LjEzNC0uMTI4LjI3NS0uMDM0LjU5MS4yMTMuNzEuMjQ4LjEyLjU1Ni0uMDA3LjY5LS4yODJ2LS4wMDJjLjAyLS4wMzkuMDQ2LS4wOS4wNjItLjEyNy4wNy0uMTYyLjA5NC0uMzAxLjE0NC0uNDU4LjEzMi0uMzMyLjIwNS0uNjguMzg3LS44OTcuMDUtLjA2LjEzLS4wODIuMjE1LS4xMDVsLjExMy0uMjA1YTYuNDUzIDYuNDUzIDAgMCAwIDQuNjA5LjAxMmwuMTA2LjE5MmMuMDg2LjAyOC4xOC4wNDIuMjU2LjE1NS4xMzYuMjMyLjIyOS41MDcuMzQyLjg0LjA1LjE1Ni4wNzQuMjk1LjE0NS40NTcuMDE2LjAzNy4wNDMuMDkuMDYyLjEyOS4xMzMuMjc2LjQ0Mi40MDIuNjkuMjgyLjI0Ny0uMTE4LjM0MS0uNDM1LjIxMy0uNzEtLjAyLS4wMzktLjA0NS0uMDk2LS4wNjUtLjEzNC0uMDgzLS4xNTYtLjE3Ny0uMjYxLS4yNjgtLjM5OC0uMTktLjI5Ni0uMzQ2LS41NDEtLjQ0My0uNzkzLS4wNC0uMTMuMDA3LS4yMS4wMzgtLjI5NC0uMDE4LS4wMjItLjA1OS0uMTQ0LS4wODMtLjIwMmE2LjQ5OSA2LjQ5OSAwIDAgMCAyLjg4LTMuNjIyYy4wNjQuMDEuMTc2LjAzLjIxMy4wMzguMDc1LS4wNS4xNDQtLjExNC4yOC0uMTA0LjI2Ni4wMzkuNTQuMTM4Ljg3LjI1Ni4xNTQuMDYuMjc3LjEyOC40NDguMTczLjAzNi4wMS4wODguMDE5LjEzLjAyOGwuMDA5LjAwMy4wMDcuMDAxYy4yOTcuMDY0LjU4NC0uMDk4LjY0NS0uMzY1LjA2LS4yNjYtLjEyOC0uNTM3LS40MjMtLjYwOHpNMTYuNCA5LjcwMWwtMS45NSAxLjc0NnYuMDA1YS40NC40NCAwIDAgMCAuMTczLjc1N2wuMDAzLjAxIDIuNTI2LjcyOGE1LjE5OSA1LjE5OSAwIDAgMC0uMTA4LTEuNjc0QTUuMjA4IDUuMjA4IDAgMCAwIDE2LjQgOS43em0tNC4wMTMgNS4zMjVhLjQzNy40MzcgMCAwIDAtLjQwNC0uMjMyLjQ0LjQ0IDAgMCAwLS4zNzIuMjMzaC0uMDAybC0xLjI2OCAyLjI5MmE1LjE2NCA1LjE2NCAwIDAgMCAzLjMyNi4wMDNsLTEuMjctMi4yOTZoLS4wMXptMS44ODgtMS4yOTNhLjQ0LjQ0IDAgMCAwLS4yNy4wMzYuNDQuNDQgMCAwIDAtLjIxNC41NzJsLS4wMDMuMDA0IDEuMDEgMi40MzhhNS4xNSA1LjE1IDAgMCAwIDIuMDgxLTIuNjE1bC0yLjYtLjQ0LS4wMDQuMDA1eiIvPjwvc3ZnPg=="
                 x="944"
                 y="228"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
                 x="982"
-                y="247"
+                y="245"
                 fill="#D2D2D7"
                 font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
                 font-size="13"
                 font-weight="500">
                 Kubernetes
             </text>
+
         </g>
         
         <g>
+
             <rect
                 x="44"
                 y="286"
@@ -458,26 +624,37 @@
                 fill="#0D0D0D"
             />
 
+            <!-- white icon backing -->
+            <circle
+                cx="76"
+                cy="320"
+                r="15"
+                fill="#F5F5F7"
+            />
+
             <image
                 href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+UG9zdG1hbjwvdGl0bGU+PHBhdGggZD0iTTEzLjUyNy4wOTlDNi45NTUtLjc0NC45NDIgMy45LjA5OSAxMC40NzNjLS44NDMgNi41NzIgMy44IDEyLjU4NCAxMC4zNzMgMTMuNDI4IDYuNTczLjg0MyAxMi41ODctMy44MDEgMTMuNDI4LTEwLjM3NEMyNC43NDQgNi45NTUgMjAuMTAxLjk0MyAxMy41MjcuMDk5em0yLjQ3MSA3LjQ4NWEuODU1Ljg1NSAwIDAgMC0uNTkzLjI1bC00LjQ1MyA0LjQ1My0uMzA3LS4zMDctLjY0My0uNjQzYzQuMzg5LTQuMzc2IDUuMTgtNC40MTggNS45OTYtMy43NTN6bS00Ljg2MyA0Ljg2MWw0LjQ0LTQuNDRhLjYyLjYyIDAgMSAxIC44NDcuOTAzbC00LjY5OSA0LjEyNS0uNTg4LS41ODh6bS4zMy42OTRsLTEuMS4yMzhhLjA2LjA2IDAgMCAxLS4wNjctLjAzMi4wNi4wNiAwIDAgMSAuMDEtLjA3M2wuNjQ1LS42NDUuNTEyLjUxMnptLTIuODAzLS40NTlsMS4xNzItMS4xNzIuODc5Ljg3OC0xLjk3OS40MjZhLjA3NC4wNzQgMCAwIDEtLjA4NS0uMDM5LjA3Mi4wNzIgMCAwIDEgLjAxMy0uMDkzem0tMy42NDYgNi4wNThhLjA3Ni4wNzYgMCAwIDEtLjA2OS0uMDgzLjA3Ny4wNzcgMCAwIDEgLjAyMi0uMDQ2aC4wMDJsLjk0Ni0uOTQ2IDEuMjIyIDEuMjIyLTIuMTIzLS4xNDd6bTIuNDI1LTEuMjU2YS4yMjguMjI4IDAgMCAwLS4xMTcuMjU2bC4yMDMuODY1YS4xMjUuMTI1IDAgMCAxLS4yMTEuMTE3aC0uMDAzbC0uOTM0LS45MzQtLjI5NC0uMjk1IDMuNzYyLTMuNzU4IDEuODItLjM5My44NzQuODc0Yy0xLjI1NSAxLjEwMi0yLjk3MSAyLjIwMS01LjEgMy4yNjh6bTUuMjc5LTMuNDI4aC0uMDAybC0uODM5LS44MzkgNC42OTktNC4xMjVhLjk1Mi45NTIgMCAwIDAgLjExOS0uMTI3Yy0uMTQ4IDEuMzQ1LTIuMDI5IDMuMjQ1LTMuOTc3IDUuMDkxem0zLjY1Ny02LjQ2bC0uMDAzLS4wMDJhMS44MjIgMS44MjIgMCAwIDEgMi40NTktMi42ODRsLTEuNjEgMS42MTNhLjExOS4xMTkgMCAwIDAgMCAuMTY5bDEuMjQ3IDEuMjQ3YTEuODE3IDEuODE3IDAgMCAxLTIuMDkzLS4zNDN6bTIuNTc4IDBhMS43MTQgMS43MTQgMCAwIDEtLjI3MS4yMThoLS4wMDFsLTEuMjA3LTEuMjA3IDEuNTMzLTEuNTMzYy42NjEuNzIuNjM3IDEuODMyLS4wNTQgMi41MjJ6TTE4Ljg1NSA2LjA1YS4xNDMuMTQzIDAgMCAwLS4wNTMuMTU3LjQxNi40MTYgMCAwIDEtLjA1My40NS4xNC4xNCAwIDAgMCAuMDIzLjE5Ny4xNDEuMTQxIDAgMCAwIC4wODQuMDMuMTQuMTQgMCAwIDAgLjEwNi0uMDUuNjkxLjY5MSAwIDAgMCAuMDg3LS43NTEuMTM4LjEzOCAwIDAgMC0uMTk0LS4wMzN6Ii8+PC9zdmc+"
                 x="64"
                 y="308"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
                 x="102"
-                y="327"
+                y="325"
                 fill="#D2D2D7"
                 font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
                 font-size="13"
                 font-weight="500">
                 Postman
             </text>
+
         </g>
         
         <g>
+
             <rect
                 x="264"
                 y="286"
@@ -487,26 +664,37 @@
                 fill="#0D0D0D"
             />
 
+            <!-- white icon backing -->
+            <circle
+                cx="296"
+                cy="320"
+                r="15"
+                fill="#F5F5F7"
+            />
+
             <image
                 href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+SlNPTiBXZWIgVG9rZW5zPC90aXRsZT48cGF0aCBkPSJNMTAuMiAwdjYuNDU2TDEyIDguOTI4bDEuOC0yLjQ3MlYwem0zLjYgNi40NTZ2My4wNzJsMi45MDQtLjk2TDIwLjUyIDMuMzZsLTIuOTI4LTIuMTM2em0yLjkwNCAyLjExMmwtMS44IDIuNDk2IDIuOTI4LjkzNiA2LjE0NC0xLjk5Mi0xLjEyOC0zLjQzMnpNMTcuODMyIDEybC0yLjkyOC45MzYgMS44IDIuNDk2IDYuMTQ0IDEuOTkyIDEuMTI4LTMuNDMyem0tMS4xMjggMy40MzJsLTIuOTA0LS45NnYzLjA3MmwzLjc5MiA1LjIzMiAyLjkyOC0yLjEzNnpNMTMuOCAxNy41NDRMMTIgMTUuMDcybC0xLjggMi40NzJWMjRoMy42em0tMy42IDB2LTMuMDcybC0yLjkwNC45NkwzLjQ4IDIwLjY0bDIuOTI4IDIuMTM2em0tMi45MDQtMi4xMTJsMS44LTIuNDk2TDYuMTY4IDEyIC4wMjQgMTMuOTkybDEuMTI4IDMuNDMyek02LjE2OCAxMmwyLjkyOC0uOTM2LTEuOC0yLjQ5Ni02LjE0NC0xLjk5Mi0xLjEyOCAzLjQzMnptMS4xMjgtMy40MzJsMi45MDQuOTZWNi40NTZMNi40MDggMS4yMjQgMy40OCAzLjM2WiIvPjwvc3ZnPg=="
                 x="284"
                 y="308"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
                 x="322"
-                y="327"
+                y="325"
                 fill="#D2D2D7"
                 font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
                 font-size="13"
                 font-weight="500">
                 JWT
             </text>
+
         </g>
         
         <g>
+
             <rect
                 x="484"
                 y="286"
@@ -516,26 +704,37 @@
                 fill="#0D0D0D"
             />
 
+            <!-- white icon backing -->
+            <circle
+                cx="516"
+                cy="320"
+                r="15"
+                fill="#F5F5F7"
+            />
+
             <image
                 href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+Q2xvdWRmbGFyZTwvdGl0bGU+PHBhdGggZD0iTTE2LjUwODggMTYuODQ0N2MuMTQ3NS0uNTA2OC4wOTA4LS45NzA3LS4xNTUzLTEuMzE1NC0uMjI0Ni0uMzE2NC0uNjA0NS0uNDk5LTEuMDYxNS0uNTIwNWwtOC42NTkyLS4xMTIzYS4xNTU5LjE1NTkgMCAwIDEtLjEzMzMtLjA3MTNjLS4wMjgzLS4wNDItLjAzNTEtLjA5ODYtLjAyMS0uMTU1My4wMjc4LS4wODQuMTEyMy0uMTQ4NC4yMDM2LS4xNTYybDguNzM1OS0uMTEyM2MxLjAzNTEtLjA0ODkgMi4xNjAxLS44ODY4IDIuNTUzNy0xLjkxMzZsLjQ5OS0xLjMwMTNjLjAyMTUtLjA1NjEuMDI5My0uMTEyOC4wMTQ3LS4xNjgtLjU2MjUtMi41NDYzLTIuODM1LTQuNDQ1My01LjU0OTktNC40NDUzLTIuNTAzOSAwLTQuNjI4NCAxLjYxNzctNS4zODc2IDMuODYxNC0uNDkyNy0uMzY1OC0xLjExODctLjU2MjUtMS43OTQtLjQ5OS0xLjIwMjYuMTE5LTIuMTY2NSAxLjA4My0yLjI4NjEgMi4yODU2LS4wMjgzLjMxLS4wMDY5LjYxMjguMDYzNS44OTRDMS41NjgzIDEzLjE3MSAwIDE0Ljc3NTQgMCAxNi43NTJjMCAuMTc0OC4wMTQyLjM1MTUuMDM1Mi41MjczLjAxNDEuMDgzLjA4NDQuMTQ3NS4xNjg5LjE0NzVoMTUuOTgxNGMuMDkwOSAwIC4xNzU4LS4wNjQ1LjIwMzItLjE1NTNsLjEyLS40MjY4em0yLjc1NjgtNS41NjM0Yy0uMDc3MSAwLS4xNjExIDAtLjIzODMuMDExMi0uMDU2NiAwLS4xMDU0LjA0MTUtLjEyNy4wOTc2bC0uMzM3OCAxLjE3NDRjLS4xNDc1LjUwNjgtLjA5MTguOTcwNy4xNTQzIDEuMzE2NC4yMjU2LjMxNjQuNjA1NS40OTggMS4wNjI1LjUxOTVsMS44NDM3LjExMzNjLjA1NTcgMCAuMTA1NS4wMjYzLjEzMjkuMDcwMy4wMjgzLjA0My4wMzUxLjEwNzQuMDIxNC4xNTYyLS4wMjgzLjA4NC0uMTEzMi4xNDg1LS4yMDQuMTU1M2wtMS45MjEuMTEyM2MtMS4wNDEuMDQ4OC0yLjE1ODIuODg2Ny0yLjU1MjcgMS45MTRsLS4xNDA2LjM1ODVjLS4wMjgzLjA3MTMuMDIxNS4xNDE2LjA5ODYuMTQxNmg2LjU5NzdjLjA3NzEgMCAuMTQ3NC0uMDQ4OS4xNjktLjEyNi4xMTIyLS40MDgyLjE3NTctLjgzNy4xNzU3LTEuMjgwMyAwLTIuNjAyNS0yLjEyNS00LjcyNy00LjczNDQtNC43MjciLz48L3N2Zz4="
                 x="504"
                 y="308"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
                 x="542"
-                y="327"
+                y="325"
                 fill="#D2D2D7"
                 font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
                 font-size="13"
                 font-weight="500">
                 Cloudflare
             </text>
+
         </g>
         
         <g>
+
             <rect
                 x="704"
                 y="286"
@@ -545,26 +744,37 @@
                 fill="#0D0D0D"
             />
 
+            <!-- white icon backing -->
+            <circle
+                cx="736"
+                cy="320"
+                r="15"
+                fill="#F5F5F7"
+            />
+
             <image
                 href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+UmVuZGVyPC90aXRsZT48cGF0aCBkPSJNMTguMjYzLjAwN2MtMy4xMjEtLjE0Ny01Ljc0NCAyLjEwOS02LjE5MiA1LjA4Mi0uMDE4LjEzOC0uMDQ1LjI3Mi0uMDY3LjQwNS0uNjk2IDMuNzAzLTMuOTM2IDYuNTA3LTcuODI3IDYuNTA3LTEuMzg4IDAtMi42OTEtLjM1Ni0zLjgyNS0uOTc5YS4yMDI0LjIwMjQgMCAwIDAtLjMwMi4xNzhWMjRIMTJ2LTguOTk5YzAtMS42NTYgMS4zMzgtMyAyLjk4Ny0zaDIuOTg4YzMuMzgyIDAgNi4xMDMtMi44MTcgNS45Ny02LjI0NC0uMTItMy4wODQtMi42MS01LjYwMy01LjY4Mi01Ljc1Ii8+PC9zdmc+"
                 x="724"
                 y="308"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
                 x="762"
-                y="327"
+                y="325"
                 fill="#D2D2D7"
                 font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
                 font-size="13"
                 font-weight="500">
                 Render
             </text>
+
         </g>
         
         <g>
+
             <rect
                 x="924"
                 y="286"
@@ -574,23 +784,33 @@
                 fill="#0D0D0D"
             />
 
+            <!-- white icon backing -->
+            <circle
+                cx="956"
+                cy="320"
+                r="15"
+                fill="#F5F5F7"
+            />
+
             <image
                 href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+VmVyY2VsPC90aXRsZT48cGF0aCBkPSJtMTIgMS42MDggMTIgMjAuNzg0SDBaIi8+PC9zdmc+"
                 x="944"
                 y="308"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
                 x="982"
-                y="327"
+                y="325"
                 fill="#D2D2D7"
                 font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
                 font-size="13"
                 font-weight="500">
                 Vercel
             </text>
+
         </g>
         
 
