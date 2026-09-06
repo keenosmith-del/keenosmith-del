@@ -86,17 +86,10 @@
 
 <br>
 
-<div align="center">
-
-<a href="https://keenosmith.vercel.app">
 <img
-  src="./assets/generated/portfolio.svg"
-  width="170"
-  height="44"
-  alt="View portfolio"
+  src="./assets/generated/projects.svg"
+  width="100%"
+  alt="Projects"
 />
-</a>
-
-</div>
 
 </div>
