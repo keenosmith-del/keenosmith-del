@@ -362,7 +362,7 @@ projects = [
 # =========================================================
 
 PROJECT_W = 554
-PROJECT_H = 475
+PROJECT_H = 520
 
 container_width = 1200
 container_height = 1120
