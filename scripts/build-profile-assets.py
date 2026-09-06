@@ -365,7 +365,7 @@ PROJECT_W = 554
 PROJECT_H = 440
 
 container_width = 1200
-container_height = 1045
+container_height = 1120
 
 card_positions = [
     (44, 150),
@@ -534,7 +534,7 @@ projects_svg = f"""
 
         <text
             x="600"
-            y="1027"
+            y="1087"
             text-anchor="middle"
             fill="#D2D2D7"
             font-family="{FONT}"
