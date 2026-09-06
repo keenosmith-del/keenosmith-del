@@ -34,7 +34,7 @@ def png_image(filename: str):
 # INTRO
 # =========================================================
 
-intro = f"""
+intro = """
 <svg
     xmlns="http://www.w3.org/2000/svg"
     width="1200"
@@ -53,7 +53,7 @@ intro = f"""
         y="125"
         text-anchor="middle"
         fill="#F5F5F7"
-        font-family="{FONT}"
+        font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
         font-size="72"
         font-weight="300"
         letter-spacing="-4">
@@ -65,14 +65,15 @@ intro = f"""
         y="178"
         text-anchor="middle"
         fill="#86868B"
-        font-family="{FONT}"
+        font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
         font-size="18"
         font-weight="400">
         Full-Stack Software Engineer · Web Developer · AI Application Development
     </text>
 
-    <a href="mailto:business.keenosmith@icloud.com">
+    <!-- Email -->
 
+    <a href="mailto:business.keenosmith@icloud.com">
         <rect
             x="360"
             y="245"
@@ -87,16 +88,16 @@ intro = f"""
             y="270"
             text-anchor="middle"
             fill="#D2D2D7"
-            font-family="{FONT}"
+            font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
             font-size="13"
             font-weight="500">
             Email
         </text>
-
     </a>
 
-    <a href="https://www.linkedin.com/in/keenotreysmith/">
+    <!-- LinkedIn -->
 
+    <a href="https://www.linkedin.com/in/keenotreysmith/">
         <rect
             x="505"
             y="245"
@@ -111,16 +112,16 @@ intro = f"""
             y="270"
             text-anchor="middle"
             fill="#D2D2D7"
-            font-family="{FONT}"
+            font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
             font-size="13"
             font-weight="500">
             LinkedIn
         </text>
-
     </a>
 
-    <a href="https://keenosmith.vercel.app">
+    <!-- Portfolio -->
 
+    <a href="https://keenosmith.vercel.app">
         <rect
             x="660"
             y="245"
@@ -135,12 +136,11 @@ intro = f"""
             y="270"
             text-anchor="middle"
             fill="#D2D2D7"
-            font-family="{FONT}"
+            font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
             font-size="13"
             font-weight="500">
             Portfolio
         </text>
-
     </a>
 
 </svg>
@@ -154,16 +154,16 @@ write_svg("intro.svg", intro)
 # =========================================================
 
 about_lines = [
-    "I’m a full-stack software engineer and web developer focused on building web applications, AI-powered software, and",
-    "full-stack systems. I work across the stack, from designing interfaces and developing frontend experiences to building APIs,",
-    "databases, authentication, and deployment workflows. I’m particularly interested in the intersection of software engineering",
-    "and AI, and in using modern tools and technologies to turn ideas into working products.",
+    "I’m a full-stack software engineer and web developer with a focus on building web applications, AI-powered software,",
+    "and full-stack systems. I work across the stack, from designing interfaces and developing frontend experiences to building",
+    "APIs, databases, authentication, and deployment workflows. I’m particularly interested in the intersection of software",
+    "engineering and AI, and in using modern tools and technologies to turn ideas into working products.",
 ]
 
 about_text = "\n".join(
     f"""
     <text
-        x="42"
+        x="45"
         y="{68 + i * 27}"
         fill="#8E8E93"
         font-family="{FONT}"
@@ -261,12 +261,21 @@ for index, (name, icon_file) in enumerate(technologies):
                 fill="#0D0D0D"
             />
 
+            <!-- white icon backing -->
+            <circle
+                cx="{x + 32}"
+                cy="{y + 34}"
+                r="15"
+                fill="#F5F5F7"
+            />
+
             <image
                 href="{icon}"
                 x="{x + 20}"
                 y="{y + 22}"
                 width="24"
                 height="24"
+                style="filter: brightness(0) invert(1);"
             />
 
             <text
@@ -306,7 +315,7 @@ write_svg("technologies.svg", tech)
 
 
 # =========================================================
-# PROJECT CARDS
+# PROJECTS
 # =========================================================
 
 projects = [
@@ -471,87 +480,3 @@ for project in projects:
     """
 
     write_svg(project["filename"], card)
-
-
-# =========================================================
-# PROJECTS CONTAINER
-# =========================================================
-
-projects_container = f"""
-<svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="1200"
-    height="1060"
-    viewBox="0 0 1200 1060">
-
-    <rect
-        width="1200"
-        height="1060"
-        rx="34"
-        fill="#080808"
-    />
-
-    <text
-        x="44"
-        y="60"
-        fill="#F5F5F7"
-        font-family="{FONT}"
-        font-size="24"
-        font-weight="500"
-        letter-spacing="-0.7">
-        Projects
-    </text>
-
-    <text
-        x="44"
-        y="88"
-        fill="#6E6E73"
-        font-family="{FONT}"
-        font-size="13"
-        font-weight="400">
-        Selected full-stack, AI, API, and database projects.
-    </text>
-
-</svg>
-"""
-
-write_svg("projects-container.svg", projects_container)
-
-
-# =========================================================
-# PORTFOLIO BUTTON
-# =========================================================
-
-portfolio = f"""
-<svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="170"
-    height="44"
-    viewBox="0 0 170 44">
-
-    <a href="https://keenosmith.vercel.app">
-
-        <rect
-            width="170"
-            height="44"
-            rx="22"
-            fill="#0D0D0D"
-        />
-
-        <text
-            x="85"
-            y="27"
-            text-anchor="middle"
-            fill="#D2D2D7"
-            font-family="{FONT}"
-            font-size="13"
-            font-weight="500">
-            View portfolio
-        </text>
-
-    </a>
-
-</svg>
-"""
-
-write_svg("portfolio.svg", portfolio)

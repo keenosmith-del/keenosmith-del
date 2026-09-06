@@ -14,46 +14,46 @@
 
     
     <text
-        x="42"
+        x="45"
         y="68"
         fill="#8E8E93"
         font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
         font-size="14"
         font-weight="400">
-        I’m a full-stack software engineer and web developer focused on building web applications, AI-powered software, and
+        I’m a full-stack software engineer and web developer with a focus on building web applications, AI-powered software,
     </text>
     
 
     <text
-        x="42"
+        x="45"
         y="95"
         fill="#8E8E93"
         font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
         font-size="14"
         font-weight="400">
-        full-stack systems. I work across the stack, from designing interfaces and developing frontend experiences to building APIs,
+        and full-stack systems. I work across the stack, from designing interfaces and developing frontend experiences to building
     </text>
     
 
     <text
-        x="42"
+        x="45"
         y="122"
         fill="#8E8E93"
         font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
         font-size="14"
         font-weight="400">
-        databases, authentication, and deployment workflows. I’m particularly interested in the intersection of software engineering
+        APIs, databases, authentication, and deployment workflows. I’m particularly interested in the intersection of software
     </text>
     
 
     <text
-        x="42"
+        x="45"
         y="149"
         fill="#8E8E93"
         font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
         font-size="14"
         font-weight="400">
-        and AI, and in using modern tools and technologies to turn ideas into working products.
+        engineering and AI, and in using modern tools and technologies to turn ideas into working products.
     </text>
     
 
