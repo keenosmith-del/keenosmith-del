@@ -2,14 +2,31 @@ import base64
 import html
 from pathlib import Path
 
+
+# =========================================================
+# PATHS
+# =========================================================
+
 ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "assets"
 OUT = ASSETS / "generated"
 
 OUT.mkdir(parents=True, exist_ok=True)
 
-FONT = "-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
 
+# =========================================================
+# FONT
+# =========================================================
+
+FONT = (
+    "-apple-system, BlinkMacSystemFont, "
+    "'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
+)
+
+
+# =========================================================
+# HELPERS
+# =========================================================
 
 def data_uri(path: Path, mime: str):
     encoded = base64.b64encode(path.read_bytes()).decode("utf-8")
@@ -18,7 +35,7 @@ def data_uri(path: Path, mime: str):
 
 def write_svg(filename: str, content: str):
     path = OUT / filename
-    path.write_text(content, encoding="utf-8")
+    path.write_text(content.strip() + "\n", encoding="utf-8")
     print(f"Generated {path.relative_to(ROOT)}")
 
 
@@ -34,7 +51,7 @@ def png_image(filename: str):
 # INTRO
 # =========================================================
 
-intro = """
+intro = f"""
 <svg
     xmlns="http://www.w3.org/2000/svg"
     width="1200"
@@ -53,7 +70,7 @@ intro = """
         y="125"
         text-anchor="middle"
         fill="#F5F5F7"
-        font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
+        font-family="{FONT}"
         font-size="80"
         font-weight="500"
         letter-spacing="-3">
@@ -65,83 +82,73 @@ intro = """
         y="178"
         text-anchor="middle"
         fill="#86868B"
-        font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
+        font-family="{FONT}"
         font-size="18"
         font-weight="400">
         Full-Stack Software Engineer · Web Developer · AI Application Development
     </text>
 
-    <!-- Email -->
+    <!-- Contact buttons -->
 
-    <a href="mailto:business.keenosmith@icloud.com">
-        <rect
-            x="360"
-            y="245"
-            width="130"
-            height="40"
-            rx="20"
-            fill="#101010"
-        />
+    <rect
+        x="360"
+        y="245"
+        width="130"
+        height="40"
+        rx="20"
+        fill="#101010"
+    />
 
-        <text
-            x="425"
-            y="270"
-            text-anchor="middle"
-            fill="#D2D2D7"
-            font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
-            font-size="13"
-            font-weight="500">
-            Email
-        </text>
-    </a>
+    <text
+        x="425"
+        y="270"
+        text-anchor="middle"
+        fill="#D2D2D7"
+        font-family="{FONT}"
+        font-size="13"
+        font-weight="500">
+        Email
+    </text>
 
-    <!-- LinkedIn -->
+    <rect
+        x="505"
+        y="245"
+        width="140"
+        height="40"
+        rx="20"
+        fill="#101010"
+    />
 
-    <a href="https://www.linkedin.com/in/keenotreysmith/">
-        <rect
-            x="505"
-            y="245"
-            width="140"
-            height="40"
-            rx="20"
-            fill="#101010"
-        />
+    <text
+        x="575"
+        y="270"
+        text-anchor="middle"
+        fill="#D2D2D7"
+        font-family="{FONT}"
+        font-size="13"
+        font-weight="500">
+        LinkedIn
+    </text>
 
-        <text
-            x="575"
-            y="270"
-            text-anchor="middle"
-            fill="#D2D2D7"
-            font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
-            font-size="13"
-            font-weight="500">
-            LinkedIn
-        </text>
-    </a>
+    <rect
+        x="660"
+        y="245"
+        width="140"
+        height="40"
+        rx="20"
+        fill="#101010"
+    />
 
-    <!-- Portfolio -->
-
-    <a href="https://keenosmith.vercel.app">
-        <rect
-            x="660"
-            y="245"
-            width="140"
-            height="40"
-            rx="20"
-            fill="#101010"
-        />
-
-        <text
-            x="730"
-            y="270"
-            text-anchor="middle"
-            fill="#D2D2D7"
-            font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
-            font-size="13"
-            font-weight="500">
-            Portfolio
-        </text>
-    </a>
+    <text
+        x="730"
+        y="270"
+        text-anchor="middle"
+        fill="#D2D2D7"
+        font-family="{FONT}"
+        font-size="13"
+        font-weight="500">
+        Portfolio
+    </text>
 
 </svg>
 """
@@ -226,6 +233,7 @@ technologies = [
     ("Vercel", "vercel.svg"),
 ]
 
+
 tech_items = []
 
 cols = 5
@@ -236,6 +244,7 @@ gap_y = 12
 
 start_x = 44
 start_y = 46
+
 
 for index, (name, icon_file) in enumerate(technologies):
 
@@ -260,7 +269,6 @@ for index, (name, icon_file) in enumerate(technologies):
                 fill="#0D0D0D"
             />
 
-            <!-- white icon backing -->
             <image
                 href="{icon}"
                 x="{x + 20}"
@@ -283,6 +291,7 @@ for index, (name, icon_file) in enumerate(technologies):
         </g>
         """
     )
+
 
 tech = f"""
 <svg
@@ -319,7 +328,6 @@ projects = [
         ],
         "stack": "React · Node.js · Express · MongoDB · Mongoose · JWT",
         "image": "productivityProjectImage.png",
-        "repo": "https://github.com/keenosmith-del/personal-productivity-desktop",
     },
 
     {
@@ -330,7 +338,6 @@ projects = [
         ],
         "stack": "React · OpenAI · RAG · Hugging Face · LLMs",
         "image": "aiProjectImage.png",
-        "repo": "https://github.com/keenosmith-del/ai-entity",
     },
 
     {
@@ -341,7 +348,6 @@ projects = [
         ],
         "stack": "FastAPI · MongoDB · Postman · API Development · REST API",
         "image": "musicProjectImage.png",
-        "repo": "https://github.com/keenosmith-del/music-api",
     },
 
     {
@@ -352,7 +358,6 @@ projects = [
         ],
         "stack": "React · Vite · Express · PostgreSQL · Prisma",
         "image": "enterpriseProjectImage.png",
-        "repo": "https://github.com/keenosmith-del/enterprise-workspace",
     },
 ]
 
@@ -374,13 +379,16 @@ card_positions = [
     (602, 700),
 ]
 
+
 project_items = []
+
 
 for project, (x, y) in zip(projects, card_positions):
 
     image = png_image(project["image"])
 
     # Internal project layout
+
     image_x = x + 16
     image_y = y + 16
     image_w = PROJECT_W - 32
@@ -413,97 +421,93 @@ for project, (x, y) in zip(projects, card_positions):
 
     project_items.append(
         f"""
-        <a href="{project["repo"]}">
+        <!-- Project tile -->
 
-            <!-- Project tile -->
+        <rect
+            x="{x}"
+            y="{y}"
+            width="{PROJECT_W}"
+            height="{PROJECT_H}"
+            rx="28"
+            fill="#0D0D0D"
+        />
 
-            <rect
-                x="{x}"
-                y="{y}"
-                width="{PROJECT_W}"
-                height="{PROJECT_H}"
-                rx="28"
-                fill="#0D0D0D"
-            />
+        <!-- Project image -->
 
-            <!-- Project image -->
+        <defs>
+            <clipPath id="projectClip{x}{y}">
+                <rect
+                    x="{image_x}"
+                    y="{image_y}"
+                    width="{image_w}"
+                    height="{image_h}"
+                    rx="20"
+                />
+            </clipPath>
+        </defs>
 
-            <defs>
-                <clipPath id="projectClip{x}{y}">
-                    <rect
-                        x="{image_x}"
-                        y="{image_y}"
-                        width="{image_w}"
-                        height="{image_h}"
-                        rx="20"
-                    />
-                </clipPath>
-            </defs>
+        <image
+            href="{image}"
+            x="{image_x}"
+            y="{image_y}"
+            width="{image_w}"
+            height="{image_h}"
+            preserveAspectRatio="xMidYMid slice"
+            clip-path="url(#projectClip{x}{y})"
+        />
 
-            <image
-                href="{image}"
-                x="{image_x}"
-                y="{image_y}"
-                width="{image_w}"
-                height="{image_h}"
-                preserveAspectRatio="xMidYMid slice"
-                clip-path="url(#projectClip{x}{y})"
-            />
+        <!-- Project title -->
 
-            <!-- Project title -->
+        <text
+            x="{x + 16}"
+            y="{title_y}"
+            fill="#F5F5F7"
+            font-family="{FONT}"
+            font-size="18"
+            font-weight="500"
+            letter-spacing="-0.5">
+            {html.escape(project["title"])}
+        </text>
 
-            <text
-                x="{x + 16}"
-                y="{title_y}"
-                fill="#F5F5F7"
-                font-family="{FONT}"
-                font-size="18"
-                font-weight="500"
-                letter-spacing="-0.5">
-                {html.escape(project["title"])}
-            </text>
+        <!-- Description -->
 
-            <!-- Description -->
+        {description_svg}
 
-            {description_svg}
+        <!-- Technology stack -->
 
-            <!-- Technology stack -->
+        <text
+            x="{x + 16}"
+            y="{stack_y}"
+            fill="#5F5F63"
+            font-family="{FONT}"
+            font-size="11"
+            font-weight="500">
+            {html.escape(project["stack"])}
+        </text>
 
-            <text
-                x="{x + 16}"
-                y="{stack_y}"
-                fill="#5F5F63"
-                font-family="{FONT}"
-                font-size="11"
-                font-weight="500">
-                {html.escape(project["stack"])}
-            </text>
+        <!-- Arrow -->
 
-            <!-- Arrow -->
+        <circle
+            cx="{arrow_cx}"
+            cy="{arrow_cy}"
+            r="20"
+            fill="#101010"
+        />
 
-            <circle
-                cx="{arrow_cx}"
-                cy="{arrow_cy}"
-                r="20"
-                fill="#101010"
-            />
-
-            <path
-                d="
-                    M{arrow_cx - 7} {arrow_cy}
-                    H{arrow_cx + 7}
-                    M{arrow_cx + 1} {arrow_cy - 6}
-                    L{arrow_cx + 7} {arrow_cy}
-                    L{arrow_cx + 1} {arrow_cy + 6}
-                "
-                fill="none"
-                stroke="#A1A1A6"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-            />
-
-        </a>
+        <path
+            d="
+                M{arrow_cx - 7} {arrow_cy}
+                H{arrow_cx + 7}
+                M{arrow_cx + 1} {arrow_cy - 6}
+                L{arrow_cx + 7} {arrow_cy}
+                L{arrow_cx + 1} {arrow_cy + 6}
+            "
+            fill="none"
+            stroke="#A1A1A6"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
         """
     )
 
@@ -557,30 +561,26 @@ projects_svg = f"""
 
     <!-- View portfolio -->
 
-    <a href="https://keenosmith.vercel.app">
+    <rect
+        x="515"
+        y="1170"
+        width="170"
+        height="44"
+        rx="22"
+        fill="#101010"
+    />
 
-        <rect
-            x="515"
-            y="1170"
-            width="170"
-            height="44"
-            rx="22"
-            fill="#101010"
-        />
-
-        <text
-            x="600"
-            y="1197"
-            text-anchor="middle"
-            fill="#D2D2D7"
-            font-family="{FONT}"
-            font-size="13"
-            font-weight="500"
-            letter-spacing="-0.1">
-            View portfolio
-        </text>
-
-    </a>
+    <text
+        x="600"
+        y="1197"
+        text-anchor="middle"
+        fill="#D2D2D7"
+        font-family="{FONT}"
+        font-size="13"
+        font-weight="500"
+        letter-spacing="-0.1">
+        View portfolio
+    </text>
 
 </svg>
 """
