@@ -14,10 +14,6 @@
   alt="Keeno Smith - Full-Stack Software Engineer"
 />
 
-<a href="mailto:business.keenosmith@icloud.com">
-  Email
-</a>
-
 <br>
 
 <img
